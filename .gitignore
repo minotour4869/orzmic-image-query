@@ -1,5 +1,6 @@
 .env
-node_modules
-.tmp
-tmp
+node_modules/
+.tmp/
+tmp/
 orz/
+# data/

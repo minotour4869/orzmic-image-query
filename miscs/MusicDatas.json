@@ -1,0 +1,6287 @@
+[
+    {
+        "MusicID": 0,
+        "FileName": "yu",
+        "Title": "雨霖铃",
+        "Artist": "Alan Mackin",
+        "CoverPainter": "镜璃",
+        "BPMRange": "180",
+        "AudioPreviewFrom": 2000,
+        "AudioPreviewTo": 17000,
+        "InitialUnlock": true,
+        "Lockhint": 0,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 1.0,
+                "Difficulty": "1",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 113
+            },
+            {
+                "Rating": 4.5,
+                "Difficulty": "4",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 277
+            },
+            {
+                "Rating": 7.8,
+                "Difficulty": "7",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 569
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 1,
+        "FileName": "bail",
+        "Title": "Bailar",
+        "Artist": "igoo2u",
+        "CoverPainter": "Totoro133",
+        "BPMRange": "124",
+        "AudioPreviewFrom": 47800,
+        "AudioPreviewTo": 60000,
+        "InitialUnlock": true,
+        "Lockhint": 0,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 1.0,
+                "Difficulty": "1",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 187
+            },
+            {
+                "Rating": 4.5,
+                "Difficulty": "4",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 326
+            },
+            {
+                "Rating": 8.0,
+                "Difficulty": "8",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 777
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 2,
+        "FileName": "bzze",
+        "Title": "BZenith",
+        "Artist": "xh白女士hx",
+        "CoverPainter": "蒔隙嵐",
+        "BPMRange": "200",
+        "AudioPreviewFrom": 102300,
+        "AudioPreviewTo": 116000,
+        "InitialUnlock": true,
+        "Lockhint": 0,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 2.0,
+                "Difficulty": "2",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 188
+            },
+            {
+                "Rating": 5.0,
+                "Difficulty": "5",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 423
+            },
+            {
+                "Rating": 9.1,
+                "Difficulty": "9",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 804
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 3,
+        "FileName": "og",
+        "Title": "OTTAMA GAZER",
+        "Artist": "MYUKKE.",
+        "CoverPainter": "Niba",
+        "BPMRange": "170",
+        "AudioPreviewFrom": 114000,
+        "AudioPreviewTo": 136000,
+        "InitialUnlock": true,
+        "Lockhint": 0,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 2.0,
+                "Difficulty": "2",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 209
+            },
+            {
+                "Rating": 5.5,
+                "Difficulty": "5",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 499
+            },
+            {
+                "Rating": 9.5,
+                "Difficulty": "9⁺",
+                "ChartDesigner": "SorArashi",
+                "NoteCount": 821
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 4,
+        "FileName": "bibic",
+        "Title": "BiBiC Heart",
+        "Artist": "MYUKKE.",
+        "CoverPainter": "E6P",
+        "BPMRange": "128",
+        "AudioPreviewFrom": 16800,
+        "AudioPreviewTo": 38430,
+        "InitialUnlock": true,
+        "Lockhint": 0,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 3.5,
+                "Difficulty": "3",
+                "ChartDesigner": "BiBiC 714",
+                "NoteCount": 296
+            },
+            {
+                "Rating": 6.5,
+                "Difficulty": "6",
+                "ChartDesigner": "BiBiC 714",
+                "NoteCount": 528
+            },
+            {
+                "Rating": 10.6,
+                "Difficulty": "10⁺",
+                "ChartDesigner": "BiBiC 147",
+                "NoteCount": 929
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 5,
+        "FileName": "cry",
+        "Title": "Cryheart",
+        "Artist": "RAI&小夜",
+        "CoverPainter": "FISHXL鱼小洛",
+        "BPMRange": "150",
+        "AudioPreviewFrom": 56700,
+        "AudioPreviewTo": 69850,
+        "InitialUnlock": true,
+        "Lockhint": 0,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 2.5,
+                "Difficulty": "2",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 155
+            },
+            {
+                "Rating": 5.0,
+                "Difficulty": "5",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 403
+            },
+            {
+                "Rating": 7.4,
+                "Difficulty": "7",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 524
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 6,
+        "FileName": "confusion",
+        "Title": "Emotional Confusion",
+        "Artist": "SamaR3N w/ Koto Spirit",
+        "CoverPainter": "Mahua",
+        "BPMRange": "145",
+        "AudioPreviewFrom": 109241,
+        "AudioPreviewTo": 124137,
+        "InitialUnlock": true,
+        "Lockhint": 0,
+        "Watermark": false,
+        "Difficulties": [
+            {
+                "Rating": 1.5,
+                "Difficulty": "1",
+                "ChartDesigner": "尘云星白 vs. r567as",
+                "NoteCount": 192
+            },
+            {
+                "Rating": 6.0,
+                "Difficulty": "6",
+                "ChartDesigner": "KevinLin",
+                "NoteCount": 705
+            },
+            {
+                "Rating": 9.5,
+                "Difficulty": "9⁺",
+                "ChartDesigner": "尘云星白 vs. r567as",
+                "NoteCount": 893
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 7,
+        "FileName": "prze",
+        "Title": "Przepływ światła",
+        "Artist": "RAI",
+        "CoverPainter": "MARI",
+        "BPMRange": "174",
+        "AudioPreviewFrom": 77241,
+        "AudioPreviewTo": 93448,
+        "InitialUnlock": false,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 3.0,
+                "Difficulty": "3",
+                "ChartDesigner": "Pięć sześć siedem",
+                "NoteCount": 308
+            },
+            {
+                "Rating": 7.4,
+                "Difficulty": "7",
+                "ChartDesigner": "Pięć sześć siedem",
+                "NoteCount": 737
+            },
+            {
+                "Rating": 10.3,
+                "Difficulty": "10",
+                "ChartDesigner": "KevinLin",
+                "NoteCount": 967
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 8,
+        "FileName": "cg",
+        "Title": "Chartreuse Green",
+        "Artist": "t+pazolite",
+        "CoverPainter": "Shinichiro Miyazaki",
+        "BPMRange": "180",
+        "AudioPreviewFrom": 33950,
+        "AudioPreviewTo": 55283,
+        "InitialUnlock": true,
+        "Lockhint": 0,
+        "Watermark": false,
+        "Difficulties": [
+            {
+                "Rating": 2.5,
+                "Difficulty": "2",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 231
+            },
+            {
+                "Rating": 5.0,
+                "Difficulty": "5",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 512
+            },
+            {
+                "Rating": 10.0,
+                "Difficulty": "10",
+                "ChartDesigner": "SorArashi",
+                "NoteCount": 788
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 9,
+        "FileName": "ill",
+        "Title": "ill city (Orzmic Edit)",
+        "Artist": "DySkyLan & VAlzpary",
+        "CoverPainter": "蒔隙嵐",
+        "BPMRange": "200",
+        "AudioPreviewFrom": 20300,
+        "AudioPreviewTo": 39500,
+        "InitialUnlock": false,
+        "Lockhint": 1,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 4.0,
+                "Difficulty": "4",
+                "ChartDesigner": "SorArashi",
+                "NoteCount": 570
+            },
+            {
+                "Rating": 7.2,
+                "Difficulty": "7",
+                "ChartDesigner": "SorArashi",
+                "NoteCount": 802
+            },
+            {
+                "Rating": 11.6,
+                "Difficulty": "11⁺",
+                "ChartDesigner": "SorArashi",
+                "NoteCount": 1340
+            },
+            {
+                "Rating": 0,
+                "Difficulty": "病",
+                "ChartDesigner": "Your new year gift from White",
+                "NoteCount": 2000
+            }
+        ]
+    },
+    {
+        "MusicID": 10,
+        "FileName": "tales",
+        "Title": "Tales of Ginkgo",
+        "Artist": "Zris",
+        "CoverPainter": "-GeNeSiS-0911",
+        "BPMRange": "161",
+        "AudioPreviewFrom": 68380,
+        "AudioPreviewTo": 83600,
+        "InitialUnlock": true,
+        "Lockhint": 0,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 1.0,
+                "Difficulty": "1",
+                "ChartDesigner": "Tales of 7ri1iz4tion",
+                "NoteCount": 135
+            },
+            {
+                "Rating": 3.0,
+                "Difficulty": "3",
+                "ChartDesigner": "Tales of 7ri1iz4tion",
+                "NoteCount": 363
+            },
+            {
+                "Rating": 8.4,
+                "Difficulty": "8",
+                "ChartDesigner": "Tales of 7ri1iz4tion",
+                "NoteCount": 648
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 11,
+        "FileName": "untitled",
+        "Title": "UNTITLED",
+        "Artist": "SaMZIng / TSAR",
+        "CoverPainter": "菱空重工",
+        "BPMRange": "150~200",
+        "AudioPreviewFrom": 18000,
+        "AudioPreviewTo": 33000,
+        "InitialUnlock": true,
+        "Lockhint": 0,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 1.5,
+                "Difficulty": "1",
+                "ChartDesigner": "尘云星白 / r567as",
+                "NoteCount": 175
+            },
+            {
+                "Rating": 5.5,
+                "Difficulty": "5",
+                "ChartDesigner": "尘云星白/ r567as",
+                "NoteCount": 504
+            },
+            {
+                "Rating": 9.8,
+                "Difficulty": "9⁺",
+                "ChartDesigner": "尘云星白 / r567as",
+                "NoteCount": 978
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 12,
+        "FileName": "schaden",
+        "Title": "SCHADEN ~Schubert: Erlkönig, D.328~",
+        "Artist": "CaraCORE",
+        "CoverPainter": "Totoro133",
+        "BPMRange": "150-160",
+        "AudioPreviewFrom": 38800,
+        "AudioPreviewTo": 49800,
+        "InitialUnlock": true,
+        "Lockhint": 0,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 2.0,
+                "Difficulty": "2",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 260
+            },
+            {
+                "Rating": 5.5,
+                "Difficulty": "5",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 608
+            },
+            {
+                "Rating": 10.2,
+                "Difficulty": "10",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 1048
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 13,
+        "FileName": "wing",
+        "Title": "Angel Wing",
+        "Artist": "uma",
+        "CoverPainter": "MARI",
+        "BPMRange": "244",
+        "AudioPreviewFrom": 93500,
+        "AudioPreviewTo": 109700,
+        "InitialUnlock": true,
+        "Lockhint": 0,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 3.0,
+                "Difficulty": "3",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 349
+            },
+            {
+                "Rating": 8.4,
+                "Difficulty": "8",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 539
+            },
+            {
+                "Rating": 10.8,
+                "Difficulty": "10⁺",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 838
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 14,
+        "FileName": "spakle",
+        "Title": "Spark!e",
+        "Artist": "Aoi",
+        "CoverPainter": "MARI",
+        "BPMRange": "185",
+        "AudioPreviewFrom": 45405,
+        "AudioPreviewTo": 66150,
+        "InitialUnlock": true,
+        "Lockhint": 0,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 3.5,
+                "Difficulty": "3",
+                "ChartDesigner": "尘云星白！",
+                "NoteCount": 316
+            },
+            {
+                "Rating": 7.0,
+                "Difficulty": "7",
+                "ChartDesigner": "尘云星白！",
+                "NoteCount": 714
+            },
+            {
+                "Rating": 10.7,
+                "Difficulty": "10⁺",
+                "ChartDesigner": "尘云星白！",
+                "NoteCount": 933
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 15,
+        "FileName": "catastrophe",
+        "Title": "Thunderstorm Catastrophe",
+        "Artist": "CaraCORE / Brank",
+        "CoverPainter": "CaraCORE",
+        "BPMRange": "176",
+        "AudioPreviewFrom": 25227,
+        "AudioPreviewTo": 44300,
+        "InitialUnlock": true,
+        "Lockhint": 0,
+        "Watermark": false,
+        "Difficulties": [
+            {
+                "Rating": -66,
+                "Difficulty": "2",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 256
+            },
+            {
+                "Rating": -66,
+                "Difficulty": "6",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 377
+            },
+            {
+                "Rating": -66,
+                "Difficulty": "9⁺",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 813
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 16,
+        "FileName": "al",
+        "Title": "Aleph-0",
+        "Artist": "LeaF",
+        "CoverPainter": "Optie",
+        "BPMRange": "35~400",
+        "AudioPreviewFrom": 26879,
+        "AudioPreviewTo": 40900,
+        "InitialUnlock": true,
+        "Lockhint": 0,
+        "Watermark": false,
+        "Difficulties": [
+            {
+                "Rating": 5.0,
+                "Difficulty": "5",
+                "ChartDesigner": "cyxb",
+                "NoteCount": 303
+            },
+            {
+                "Rating": 0,
+                "Difficulty": "？",
+                "ChartDesigner": "ybb",
+                "NoteCount": 691
+            },
+            {
+                "Rating": 9.9,
+                "Difficulty": "9⁺",
+                "ChartDesigner": "cyxb",
+                "NoteCount": 629
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 17,
+        "FileName": "conflict",
+        "Title": "conflict",
+        "Artist": "siromaru + cranky",
+        "CoverPainter": "镜璃",
+        "BPMRange": "160",
+        "AudioPreviewFrom": 13484,
+        "AudioPreviewTo": 38984,
+        "InitialUnlock": true,
+        "Lockhint": 0,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 2.5,
+                "Difficulty": "2",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 266
+            },
+            {
+                "Rating": 8.0,
+                "Difficulty": "8",
+                "ChartDesigner": "Grace",
+                "NoteCount": 612
+            },
+            {
+                "Rating": 10.4,
+                "Difficulty": "10",
+                "ChartDesigner": "Grace",
+                "NoteCount": 941
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 18,
+        "FileName": "mand",
+        "Title": "Mandragora",
+        "Artist": "Columba (Daily vs Roon_kun)",
+        "CoverPainter": "TARO_head (.001)",
+        "BPMRange": "200",
+        "AudioPreviewFrom": 87620,
+        "AudioPreviewTo": 99300,
+        "InitialUnlock": true,
+        "Lockhint": 0,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 2.5,
+                "Difficulty": "2",
+                "ChartDesigner": "Furry 7ri1iz4tion",
+                "NoteCount": 274
+            },
+            {
+                "Rating": 5.5,
+                "Difficulty": "5",
+                "ChartDesigner": "Endermeng",
+                "NoteCount": 456
+            },
+            {
+                "Rating": 10.9,
+                "Difficulty": "10⁺",
+                "ChartDesigner": "Furry 7ri1iz4tion",
+                "NoteCount": 904
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 19,
+        "FileName": "dusk",
+        "Title": "Beach at Dusk",
+        "Artist": "NceS",
+        "CoverPainter": "CaraCORE",
+        "BPMRange": "150",
+        "AudioPreviewFrom": 77000,
+        "AudioPreviewTo": 105000,
+        "InitialUnlock": false,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 1.0,
+                "Difficulty": "1",
+                "ChartDesigner": "7ri1iz4tion at dusk",
+                "NoteCount": 190
+            },
+            {
+                "Rating": 5.0,
+                "Difficulty": "5",
+                "ChartDesigner": "7ri1iz4tion at dawn",
+                "NoteCount": 418
+            },
+            {
+                "Rating": 6.0,
+                "Difficulty": "6",
+                "ChartDesigner": "7ri1iz4tion at dusk",
+                "NoteCount": 458
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 20,
+        "FileName": "pupa",
+        "Title": "PUPA",
+        "Artist": "モリモリあつし",
+        "CoverPainter": "MRJ's アクアマリン Monarch",
+        "BPMRange": "202",
+        "AudioPreviewFrom": 74851,
+        "AudioPreviewTo": 95955,
+        "InitialUnlock": true,
+        "Lockhint": 1,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 4.0,
+                "Difficulty": "4",
+                "ChartDesigner": "尘云星白#384D0E",
+                "NoteCount": 353
+            },
+            {
+                "Rating": 6.5,
+                "Difficulty": "6",
+                "ChartDesigner": "尘云星白#384D0E",
+                "NoteCount": 561
+            },
+            {
+                "Rating": 11.5,
+                "Difficulty": "11⁺",
+                "ChartDesigner": "尘云星白~Rebirth of the Butterfly",
+                "NoteCount": 1048
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 21,
+        "FileName": "jiege",
+        "Title": "UИ0HЯ1Λ: Seventh Syberia Strike",
+        "Artist": "Orzmic Sound Team",
+        "CoverPainter": "Orzmic Illustration Team",
+        "BPMRange": "160",
+        "AudioPreviewFrom": 50279,
+        "AudioPreviewTo": 75404,
+        "InitialUnlock": false,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 1.0,
+                "Difficulty": "1",
+                "ChartDesigner": "Orzmic Chart Team“7ri1iz4tion”",
+                "NoteCount": 177
+            },
+            {
+                "Rating": 5.5,
+                "Difficulty": "5",
+                "ChartDesigner": "Orzmic Chart Team“尘云星白”",
+                "NoteCount": 500
+            },
+            {
+                "Rating": 10.1,
+                "Difficulty": "10",
+                "ChartDesigner": "Orzmic Chart Team",
+                "NoteCount": 899
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 22,
+        "FileName": "seed",
+        "Title": "Apocalypse Seed",
+        "Artist": "Knightmare0",
+        "CoverPainter": "神酒",
+        "BPMRange": "160",
+        "AudioPreviewFrom": 90340,
+        "AudioPreviewTo": 114514,
+        "InitialUnlock": true,
+        "Lockhint": 0,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 2.0,
+                "Difficulty": "2",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 189
+            },
+            {
+                "Rating": 5.5,
+                "Difficulty": "5",
+                "ChartDesigner": "Hollywing",
+                "NoteCount": 587
+            },
+            {
+                "Rating": 9.1,
+                "Difficulty": "9",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 718
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 23,
+        "FileName": "life",
+        "Title": "Life",
+        "Artist": "NceS",
+        "CoverPainter": "Totoro133",
+        "BPMRange": "75~150",
+        "AudioPreviewFrom": 121992,
+        "AudioPreviewTo": 147300,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": -33,
+                "Difficulty": "2",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 145
+            },
+            {
+                "Rating": -33,
+                "Difficulty": "6",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 433
+            },
+            {
+                "Rating": -33,
+                "Difficulty": "9⁺",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 767
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 24,
+        "FileName": "coming",
+        "Title": "Coming Down",
+        "Artist": "NceS",
+        "CoverPainter": "Psi_Victoria",
+        "BPMRange": "150",
+        "AudioPreviewFrom": 48740,
+        "AudioPreviewTo": 67674,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 3.0,
+                "Difficulty": "3",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 331
+            },
+            {
+                "Rating": 6.0,
+                "Difficulty": "6",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 764
+            },
+            {
+                "Rating": 9.3,
+                "Difficulty": "9",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 957
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 25,
+        "FileName": "replacer",
+        "Title": "Replacer",
+        "Artist": "CPSQUQI & All_Life_X",
+        "CoverPainter": "酪野也",
+        "BPMRange": "165",
+        "AudioPreviewFrom": 62964,
+        "AudioPreviewTo": 84671,
+        "InitialUnlock": false,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 1.0,
+                "Difficulty": "1",
+                "ChartDesigner": "尘云星白 & r567as",
+                "NoteCount": 152
+            },
+            {
+                "Rating": 6.5,
+                "Difficulty": "6",
+                "ChartDesigner": "尘云星白 & r567as",
+                "NoteCount": 381
+            },
+            {
+                "Rating": 9.9,
+                "Difficulty": "9⁺",
+                "ChartDesigner": "尘云星白 & r567as",
+                "NoteCount": 625
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 26,
+        "FileName": "on",
+        "Title": "On And On!!",
+        "Artist": "ETIA. feat. Jenga",
+        "CoverPainter": "圆规compasses",
+        "BPMRange": "170",
+        "AudioPreviewFrom": 22564,
+        "AudioPreviewTo": 47270,
+        "InitialUnlock": false,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 4.0,
+                "Difficulty": "4",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 389
+            },
+            {
+                "Rating": 6.0,
+                "Difficulty": "6",
+                "ChartDesigner": "cyxb",
+                "NoteCount": 744
+            },
+            {
+                "Rating": 10.1,
+                "Difficulty": "10",
+                "ChartDesigner": "KevinLin",
+                "NoteCount": 1158
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 27,
+        "FileName": "promise",
+        "Title": "Last Promise",
+        "Artist": "Rayson",
+        "CoverPainter": "Daytinne123",
+        "BPMRange": "170",
+        "AudioPreviewFrom": 69782,
+        "AudioPreviewTo": 92723,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 1.0,
+                "Difficulty": "1",
+                "ChartDesigner": "Last 7ri1iz4tion",
+                "NoteCount": 136
+            },
+            {
+                "Rating": 5.0,
+                "Difficulty": "5",
+                "ChartDesigner": "Last 7ri1iz4tion",
+                "NoteCount": 238
+            },
+            {
+                "Rating": 8.8,
+                "Difficulty": "8",
+                "ChartDesigner": "Last 7ri1iz4tion",
+                "NoteCount": 537
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 28,
+        "FileName": "fracture",
+        "Title": "Fracture Temporelle",
+        "Artist": "黒皇帝",
+        "CoverPainter": "音想",
+        "BPMRange": "232",
+        "AudioPreviewFrom": 0,
+        "AudioPreviewTo": 27951,
+        "InitialUnlock": true,
+        "Lockhint": 0,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 0,
+                "Difficulty": "20",
+                "ChartDesigner": "r567as",
+                "NoteCount": 10
+            },
+            {
+                "Rating": 0,
+                "Difficulty": "21",
+                "ChartDesigner": "7ri1iz4tion",
+                "NoteCount": 453
+            },
+            {
+                "Rating": 0,
+                "Difficulty": "4",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 1032
+            },
+            {
+                "Rating": 0,
+                "Difficulty": "1",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 1084
+            }
+        ]
+    },
+    {
+        "MusicID": 29,
+        "FileName": "candy",
+        "Title": "Candy Bomb!!",
+        "Artist": "NoraKz",
+        "CoverPainter": "E6P",
+        "BPMRange": "166",
+        "AudioPreviewFrom": 1445,
+        "AudioPreviewTo": 24578,
+        "InitialUnlock": true,
+        "Lockhint": 0,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 0,
+                "Difficulty": "?",
+                "ChartDesigner": "7ri1iz4tion",
+                "NoteCount": 1146
+            },
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "MusicID": 30,
+        "FileName": "jiege2",
+        "Title": "OPERATION BLADE",
+        "Artist": "ORZMIC SONIC FORCE",
+        "CoverPainter": "佑木いずみ (cred. ft. マサキ)",
+        "BPMRange": "202.141",
+        "AudioPreviewFrom": 1445,
+        "AudioPreviewTo": 24578,
+        "InitialUnlock": true,
+        "Lockhint": 0,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 0,
+                "Difficulty": "-1",
+                "ChartDesigner": "April Fools' Chart Team",
+                "NoteCount": 1616
+            },
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "MusicID": 31,
+        "FileName": "aventyr",
+        "Title": "Äventyr",
+        "Artist": "Rigël Theatre",
+        "CoverPainter": "云熙菌_YUN",
+        "BPMRange": "114~132",
+        "AudioPreviewFrom": 2890,
+        "AudioPreviewTo": 18806,
+        "InitialUnlock": true,
+        "Lockhint": 0,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 2.0,
+                "Difficulty": "2",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 339
+            },
+            {
+                "Rating": 5.5,
+                "Difficulty": "5",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 776
+            },
+            {
+                "Rating": 9.7,
+                "Difficulty": "9⁺",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 964
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 32,
+        "FileName": "error",
+        "Title": "DataErr0r",
+        "Artist": "Cosmograph",
+        "CoverPainter": "Daytinne123",
+        "BPMRange": "180",
+        "AudioPreviewFrom": 31666,
+        "AudioPreviewTo": 53309,
+        "InitialUnlock": true,
+        "Lockhint": 0,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 1.5,
+                "Difficulty": "1",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 218
+            },
+            {
+                "Rating": 6.0,
+                "Difficulty": "6",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 435
+            },
+            {
+                "Rating": 9.6,
+                "Difficulty": "9⁺",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 703
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 33,
+        "FileName": "firefly",
+        "Title": "Firefly City",
+        "Artist": "EBIMAYO",
+        "CoverPainter": "Citrius",
+        "BPMRange": "165",
+        "AudioPreviewFrom": 24558,
+        "AudioPreviewTo": 48900,
+        "InitialUnlock": true,
+        "Lockhint": 0,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 2.0,
+                "Difficulty": "2",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 384
+            },
+            {
+                "Rating": 7.2,
+                "Difficulty": "7",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 611
+            },
+            {
+                "Rating": 10.1,
+                "Difficulty": "10",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 962
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 34,
+        "FileName": "originally",
+        "Title": "Originally",
+        "Artist": "SNKS & Mizku",
+        "CoverPainter": "Sin.",
+        "BPMRange": "200",
+        "AudioPreviewFrom": 99599,
+        "AudioPreviewTo": 120000,
+        "InitialUnlock": true,
+        "Lockhint": 0,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 1.5,
+                "Difficulty": "1",
+                "ChartDesigner": "尘云星白～原初",
+                "NoteCount": 361
+            },
+            {
+                "Rating": 7.0,
+                "Difficulty": "7",
+                "ChartDesigner": "尘云星白～原初",
+                "NoteCount": 733
+            },
+            {
+                "Rating": 10.3,
+                "Difficulty": "10",
+                "ChartDesigner": "尘云星白～原初",
+                "NoteCount": 1106
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 35,
+        "FileName": "lastpage",
+        "Title": "The Last Page",
+        "Artist": "ARForest",
+        "CoverPainter": "LokaVhirun",
+        "BPMRange": "195",
+        "AudioPreviewFrom": 98769,
+        "AudioPreviewTo": 123000,
+        "InitialUnlock": false,
+        "Lockhint": 1,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 2.5,
+                "Difficulty": "2",
+                "ChartDesigner": "尘云星白～终章",
+                "NoteCount": 259
+            },
+            {
+                "Rating": 6.0,
+                "Difficulty": "6",
+                "ChartDesigner": "尘云星白～终章",
+                "NoteCount": 558
+            },
+            {
+                "Rating": 11.2,
+                "Difficulty": "11",
+                "ChartDesigner": "尘云星白～终章",
+                "NoteCount": 1059
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 36,
+        "FileName": "myth",
+        "Title": "Myth(vip)",
+        "Artist": "rmk",
+        "CoverPainter": "云熙菌_YUN",
+        "BPMRange": "215",
+        "AudioPreviewFrom": 29576,
+        "AudioPreviewTo": 49700,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 1.0,
+                "Difficulty": "1",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 289
+            },
+            {
+                "Rating": 5.0,
+                "Difficulty": "5",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 462
+            },
+            {
+                "Rating": 9.1,
+                "Difficulty": "9",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 655
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 37,
+        "FileName": "hardcore",
+        "Title": "Hardcore Ravers",
+        "Artist": "DJ ZED",
+        "CoverPainter": "Daytinne123",
+        "BPMRange": "170",
+        "AudioPreviewFrom": 48983,
+        "AudioPreviewTo": 71219,
+        "InitialUnlock": false,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 2.0,
+                "Difficulty": "2",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 302
+            },
+            {
+                "Rating": 6.5,
+                "Difficulty": "6",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 501
+            },
+            {
+                "Rating": 10.0,
+                "Difficulty": "10",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 753
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 38,
+        "FileName": "light",
+        "Title": "Lights in the Painting",
+        "Artist": "DayStars",
+        "CoverPainter": "渚月原sonori",
+        "BPMRange": "190",
+        "AudioPreviewFrom": 66970,
+        "AudioPreviewTo": 87180,
+        "InitialUnlock": false,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 3.0,
+                "Difficulty": "3",
+                "ChartDesigner": "r567as vs. Endermeng",
+                "NoteCount": 231
+            },
+            {
+                "Rating": 8.0,
+                "Difficulty": "8",
+                "ChartDesigner": "r567as vs. Endermeng",
+                "NoteCount": 707
+            },
+            {
+                "Rating": 10.9,
+                "Difficulty": "10⁺",
+                "ChartDesigner": "r567as vs. Endermeng",
+                "NoteCount": 1045
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 39,
+        "FileName": "gaobai",
+        "Title": "告白・告別",
+        "Artist": "Greetea feat. ninnikuu",
+        "CoverPainter": "TARO_head (.001)",
+        "BPMRange": "161",
+        "AudioPreviewFrom": 62351,
+        "AudioPreviewTo": 86574,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 2.0,
+                "Difficulty": "2",
+                "ChartDesigner": "zilithe",
+                "NoteCount": 250
+            },
+            {
+                "Rating": 5.5,
+                "Difficulty": "5",
+                "ChartDesigner": "zilithe",
+                "NoteCount": 521
+            },
+            {
+                "Rating": 9.0,
+                "Difficulty": "9",
+                "ChartDesigner": "zilithe",
+                "NoteCount": 794
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 40,
+        "FileName": "break",
+        "Title": "Break Through Myself feat. Risa Yuzuki",
+        "Artist": "DJ Myosuke & Laur",
+        "CoverPainter": "MARI",
+        "BPMRange": "200",
+        "AudioPreviewFrom": 72600,
+        "AudioPreviewTo": 94200,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 2.0,
+                "Difficulty": "2",
+                "ChartDesigner": "DJ zilithe & r567as feat. 尘云星白",
+                "NoteCount": 450
+            },
+            {
+                "Rating": 7.4,
+                "Difficulty": "7",
+                "ChartDesigner": "DJ zilithe & r567as feat. 尘云星白",
+                "NoteCount": 799
+            },
+            {
+                "Rating": 11.5,
+                "Difficulty": "11⁺",
+                "ChartDesigner": "DJ zilithe & r567as feat. 尘云星白",
+                "NoteCount": 1040
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 41,
+        "FileName": "lix",
+        "Title": "写儀の少女Lix",
+        "Artist": "Se-U-Ra",
+        "CoverPainter": "深红箱",
+        "BPMRange": "195",
+        "AudioPreviewFrom": 94106,
+        "AudioPreviewTo": 113799,
+        "InitialUnlock": true,
+        "Lockhint": 0,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 3.0,
+                "Difficulty": "3",
+                "ChartDesigner": "r567as",
+                "NoteCount": 434
+            },
+            {
+                "Rating": 7.6,
+                "Difficulty": "7",
+                "ChartDesigner": "r567as",
+                "NoteCount": 734
+            },
+            {
+                "Rating": 10.7,
+                "Difficulty": "10⁺",
+                "ChartDesigner": "r567as",
+                "NoteCount": 945
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 42,
+        "FileName": "chapter",
+        "Title": "Chapters",
+        "Artist": "Sephid",
+        "CoverPainter": "QIER",
+        "BPMRange": "180",
+        "AudioPreviewFrom": 75666,
+        "AudioPreviewTo": 97000,
+        "InitialUnlock": true,
+        "Lockhint": 0,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 2.0,
+                "Difficulty": "2",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 312
+            },
+            {
+                "Rating": 6.0,
+                "Difficulty": "6",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 665
+            },
+            {
+                "Rating": 10.4,
+                "Difficulty": "10",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 927
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 43,
+        "FileName": "blvnk",
+        "Title": "BLVNK VIP",
+        "Artist": "Spyro Kong",
+        "CoverPainter": "蒔隙嵐",
+        "BPMRange": "164",
+        "AudioPreviewFrom": 72600,
+        "AudioPreviewTo": 94200,
+        "InitialUnlock": true,
+        "Lockhint": 0,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 1.5,
+                "Difficulty": "1",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 334
+            },
+            {
+                "Rating": 6.0,
+                "Difficulty": "6",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 687
+            },
+            {
+                "Rating": 11.0,
+                "Difficulty": "11",
+                "ChartDesigner": "SorArashi",
+                "NoteCount": 922
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 44,
+        "FileName": "psalm",
+        "Title": "Psalms ～魂の還るばしょ～",
+        "Artist": "qfeileadh &レゾナンスもえこ",
+        "CoverPainter": "Daytinne123",
+        "BPMRange": "96",
+        "AudioPreviewFrom": 84400,
+        "AudioPreviewTo": 99400,
+        "InitialUnlock": true,
+        "Lockhint": 0,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 1.0,
+                "Difficulty": "1",
+                "ChartDesigner": "zilithe",
+                "NoteCount": 195
+            },
+            {
+                "Rating": 5.0,
+                "Difficulty": "5",
+                "ChartDesigner": "zilithe",
+                "NoteCount": 375
+            },
+            {
+                "Rating": 7.4,
+                "Difficulty": "7",
+                "ChartDesigner": "zilithe",
+                "NoteCount": 551
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 45,
+        "FileName": "headache",
+        "Title": "Headache",
+        "Artist": "NceS",
+        "CoverPainter": "FISHXL鱼小洛",
+        "BPMRange": "140",
+        "AudioPreviewFrom": 52355,
+        "AudioPreviewTo": 72690,
+        "InitialUnlock": true,
+        "Lockhint": 0,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 1.0,
+                "Difficulty": "1",
+                "ChartDesigner": "7ri1iz4tion",
+                "NoteCount": 266
+            },
+            {
+                "Rating": 5.5,
+                "Difficulty": "5",
+                "ChartDesigner": "7ri1iz4tion",
+                "NoteCount": 455
+            },
+            {
+                "Rating": 10.0,
+                "Difficulty": "10",
+                "ChartDesigner": "7ri1iz4tion",
+                "NoteCount": 789
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 46,
+        "FileName": "cyxb",
+        "Title": "Star Fall in Evernight City",
+        "Artist": "Reku Mochizuki",
+        "CoverPainter": "微米",
+        "BPMRange": "185",
+        "AudioPreviewFrom": 12359,
+        "AudioPreviewTo": 34890,
+        "InitialUnlock": true,
+        "Lockhint": 0,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 2.0,
+                "Difficulty": "2",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 240
+            },
+            {
+                "Rating": 5.5,
+                "Difficulty": "5",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 435
+            },
+            {
+                "Rating": 9.9,
+                "Difficulty": "9⁺",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 755
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 47,
+        "FileName": "meadow",
+        "Title": "Asphodel Meadow",
+        "Artist": "The Doll Reaper vs. Knighthood",
+        "CoverPainter": "红岸",
+        "BPMRange": "160",
+        "AudioPreviewFrom": 115650,
+        "AudioPreviewTo": 135231,
+        "InitialUnlock": true,
+        "Lockhint": 0,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 2.0,
+                "Difficulty": "2",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 307
+            },
+            {
+                "Rating": 6.0,
+                "Difficulty": "6",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 630
+            },
+            {
+                "Rating": 10.0,
+                "Difficulty": "10",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 950
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 48,
+        "FileName": "rip",
+        "Title": "R.I.P.",
+        "Artist": "eicateve",
+        "CoverPainter": "QIER",
+        "BPMRange": "192",
+        "AudioPreviewFrom": 23670,
+        "AudioPreviewTo": 43670,
+        "InitialUnlock": false,
+        "Lockhint": 1,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 3.0,
+                "Difficulty": "3",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 374
+            },
+            {
+                "Rating": 9.3,
+                "Difficulty": "9",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 851
+            },
+            {
+                "Rating": 11.5,
+                "Difficulty": "11⁺",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 1096
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 49,
+        "FileName": "ashe",
+        "Title": "City of Ashes",
+        "Artist": "RAI",
+        "CoverPainter": "芋圆牛肉怪兽",
+        "BPMRange": "150",
+        "AudioPreviewFrom": 54540,
+        "AudioPreviewTo": 79654,
+        "InitialUnlock": true,
+        "Lockhint": 0,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 1.5,
+                "Difficulty": "1",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 240
+            },
+            {
+                "Rating": 5.0,
+                "Difficulty": "5",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 523
+            },
+            {
+                "Rating": 9.1,
+                "Difficulty": "9",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 706
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 50,
+        "FileName": "meng",
+        "Title": "夢色",
+        "Artist": "RAI",
+        "CoverPainter": "Sin.",
+        "BPMRange": "174",
+        "AudioPreviewFrom": 91576,
+        "AudioPreviewTo": 113645,
+        "InitialUnlock": true,
+        "Lockhint": 0,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 3.0,
+                "Difficulty": "3",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 370
+            },
+            {
+                "Rating": 6.0,
+                "Difficulty": "6",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 595
+            },
+            {
+                "Rating": 9.9,
+                "Difficulty": "9⁺",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 913
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 51,
+        "FileName": "yi",
+        "Title": "遗世之地",
+        "Artist": "RAI",
+        "CoverPainter": "音想",
+        "BPMRange": "188",
+        "AudioPreviewFrom": 19203,
+        "AudioPreviewTo": 40906,
+        "InitialUnlock": true,
+        "Lockhint": 0,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 2.5,
+                "Difficulty": "2",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 367
+            },
+            {
+                "Rating": 6.0,
+                "Difficulty": "6",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 704
+            },
+            {
+                "Rating": 10.3,
+                "Difficulty": "10",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 906
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 52,
+        "FileName": "universe",
+        "Title": "About the Universe",
+        "Artist": "SOTUI & MIssionary",
+        "CoverPainter": "寝湖",
+        "BPMRange": "180",
+        "AudioPreviewFrom": 93800,
+        "AudioPreviewTo": 117800,
+        "InitialUnlock": false,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": -42,
+                "Difficulty": "1",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 252
+            },
+            {
+                "Rating": -42,
+                "Difficulty": "5",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 641
+            },
+            {
+                "Rating": -42,
+                "Difficulty": "9⁺",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 758
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 53,
+        "FileName": "finale",
+        "Title": "Finale Destination",
+        "Artist": "takehirotei ft. Finite Limit",
+        "CoverPainter": "HiroChair",
+        "BPMRange": "93~281",
+        "AudioPreviewFrom": 17286,
+        "AudioPreviewTo": 28816,
+        "InitialUnlock": false,
+        "Lockhint": 2,
+        "Watermark": false,
+        "Difficulties": [
+            {
+                "Rating": 2.0,
+                "Difficulty": "2",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 200
+            },
+            {
+                "Rating": 6.0,
+                "Difficulty": "6",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 653
+            },
+            {
+                "Rating": 9.8,
+                "Difficulty": "9⁺",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 932
+            },
+            {
+                "Rating": 0,
+                "Difficulty": "12",
+                "ChartDesigner": "星白の秘制小汉堡—交互变速双押海",
+                "NoteCount": 1125
+            }
+        ]
+    },
+    {
+        "MusicID": 54,
+        "FileName": "moon",
+        "Title": "Imperishable Moon",
+        "Artist": "Daystars",
+        "CoverPainter": "镜璃",
+        "BPMRange": "200",
+        "AudioPreviewFrom": 62909,
+        "AudioPreviewTo": 83910,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 2.5,
+                "Difficulty": "2",
+                "ChartDesigner": "新月",
+                "NoteCount": 292
+            },
+            {
+                "Rating": 6.0,
+                "Difficulty": "6",
+                "ChartDesigner": "上弦月",
+                "NoteCount": 695
+            },
+            {
+                "Rating": 9.7,
+                "Difficulty": "9⁺",
+                "ChartDesigner": "满月",
+                "NoteCount": 810
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 55,
+        "FileName": "brain",
+        "Title": "Brain Crash",
+        "Artist": "rider",
+        "CoverPainter": "Daytinne123",
+        "BPMRange": "150",
+        "AudioPreviewFrom": 16600,
+        "AudioPreviewTo": 35759,
+        "InitialUnlock": true,
+        "Lockhint": 0,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 1.0,
+                "Difficulty": "1",
+                "ChartDesigner": "zilithe",
+                "NoteCount": 202
+            },
+            {
+                "Rating": 5.0,
+                "Difficulty": "5",
+                "ChartDesigner": "zilithe",
+                "NoteCount": 425
+            },
+            {
+                "Rating": 9.4,
+                "Difficulty": "9",
+                "ChartDesigner": "zilithe",
+                "NoteCount": 666
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 56,
+        "FileName": "skycraper",
+        "Title": "Skyscrapers Stage",
+        "Artist": "EBIMAYO",
+        "CoverPainter": "Citrius",
+        "BPMRange": "165",
+        "AudioPreviewFrom": 14360,
+        "AudioPreviewTo": 37633,
+        "InitialUnlock": true,
+        "Lockhint": 0,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 3.0,
+                "Difficulty": "3",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 263
+            },
+            {
+                "Rating": 6.5,
+                "Difficulty": "6",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 483
+            },
+            {
+                "Rating": 10.2,
+                "Difficulty": "10",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 818
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 57,
+        "FileName": "rvp",
+        "Title": "rvp7vre",
+        "Artist": "Halv",
+        "CoverPainter": "Haveathing",
+        "BPMRange": "190",
+        "AudioPreviewFrom": 103383,
+        "AudioPreviewTo": 123593,
+        "InitialUnlock": true,
+        "Lockhint": 0,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 2.0,
+                "Difficulty": "2",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 288
+            },
+            {
+                "Rating": 5.5,
+                "Difficulty": "5",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 572
+            },
+            {
+                "Rating": 10.1,
+                "Difficulty": "10",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 920
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 58,
+        "FileName": "forgotten",
+        "Title": "Forgotten Emotions",
+        "Artist": "影虎。",
+        "CoverPainter": "MARI",
+        "BPMRange": "180",
+        "AudioPreviewFrom": 24801,
+        "AudioPreviewTo": 46134,
+        "InitialUnlock": true,
+        "Lockhint": 0,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 4.0,
+                "Difficulty": "4",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 340
+            },
+            {
+                "Rating": 7.2,
+                "Difficulty": "7",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 550
+            },
+            {
+                "Rating": 11.1,
+                "Difficulty": "11",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 947
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 59,
+        "FileName": "era",
+        "Title": "Era Breath",
+        "Artist": "MYUKKE.",
+        "CoverPainter": "微米",
+        "BPMRange": "200",
+        "AudioPreviewFrom": 80389,
+        "AudioPreviewTo": 100190,
+        "InitialUnlock": true,
+        "Lockhint": 0,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 3.0,
+                "Difficulty": "3",
+                "ChartDesigner": "苍穹の处刑者",
+                "NoteCount": 373
+            },
+            {
+                "Rating": 8.8,
+                "Difficulty": "8",
+                "ChartDesigner": "苍穹の处刑者",
+                "NoteCount": 678
+            },
+            {
+                "Rating": 11.8,
+                "Difficulty": "11⁺",
+                "ChartDesigner": "苍穹の处刑者",
+                "NoteCount": 1132
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 60,
+        "FileName": "eligos",
+        "Title": "Eligos",
+        "Artist": "Team Grimoire",
+        "CoverPainter": "镜璃",
+        "BPMRange": "234",
+        "AudioPreviewFrom": 3433,
+        "AudioPreviewTo": 20356,
+        "InitialUnlock": false,
+        "Lockhint": 1,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 3.0,
+                "Difficulty": "3",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 382
+            },
+            {
+                "Rating": 6.0,
+                "Difficulty": "6",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 734
+            },
+            {
+                "Rating": 10.5,
+                "Difficulty": "10⁺",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 949
+            },
+            {
+                "Rating": 0,
+                "Difficulty": "12",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 1185
+            }
+        ]
+    },
+    {
+        "MusicID": 61,
+        "FileName": "secret",
+        "Title": "un secret",
+        "Artist": "モリモリあつし",
+        "CoverPainter": "綿花",
+        "BPMRange": "190",
+        "AudioPreviewFrom": 87779,
+        "AudioPreviewTo": 107674,
+        "InitialUnlock": false,
+        "Lockhint": 2,
+        "Watermark": false,
+        "Difficulties": [
+            {
+                "Rating": 1.0,
+                "Difficulty": "1",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 169
+            },
+            {
+                "Rating": 5.0,
+                "Difficulty": "5",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 413
+            },
+            {
+                "Rating": 9.4,
+                "Difficulty": "9",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 586
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 62,
+        "FileName": "dain",
+        "Title": "Dainsleif",
+        "Artist": "ETIA.",
+        "CoverPainter": "神酒",
+        "BPMRange": "188",
+        "AudioPreviewFrom": 79456,
+        "AudioPreviewTo": 100201,
+        "InitialUnlock": false,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 2.0,
+                "Difficulty": "2",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 341
+            },
+            {
+                "Rating": 6.0,
+                "Difficulty": "6",
+                "ChartDesigner": "天狐 feat. 尘云星白",
+                "NoteCount": 536
+            },
+            {
+                "Rating": 10.4,
+                "Difficulty": "10",
+                "ChartDesigner": "天狐 feat. 尘云星白",
+                "NoteCount": 850
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 63,
+        "FileName": "fh",
+        "Title": "Final Hope",
+        "Artist": "Riya",
+        "CoverPainter": "Mad Project",
+        "BPMRange": "220",
+        "AudioPreviewFrom": 26767,
+        "AudioPreviewTo": 44221,
+        "InitialUnlock": false,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 4.0,
+                "Difficulty": "4",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 314
+            },
+            {
+                "Rating": 6.0,
+                "Difficulty": "6",
+                "ChartDesigner": "天狐 feat. 尘云星白",
+                "NoteCount": 741
+            },
+            {
+                "Rating": 11.2,
+                "Difficulty": "11",
+                "ChartDesigner": "天狐 feat. 尘云星白",
+                "NoteCount": 1088
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 64,
+        "FileName": "csqn",
+        "Title": "c.s.q.n.",
+        "Artist": "Aoi",
+        "CoverPainter": "圆规compasses",
+        "BPMRange": "174",
+        "AudioPreviewFrom": 89655,
+        "AudioPreviewTo": 112680,
+        "InitialUnlock": false,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 3.0,
+                "Difficulty": "3",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 276
+            },
+            {
+                "Rating": 7.6,
+                "Difficulty": "7",
+                "ChartDesigner": "D.M.S.-.(DySkyLan.蒔隙嵐.SorArashi.-50)",
+                "NoteCount": 839
+            },
+            {
+                "Rating": 10.7,
+                "Difficulty": "10⁺",
+                "ChartDesigner": "D.M.S.-.(DySkyLan.蒔隙嵐.SorArashi.-50)",
+                "NoteCount": 924
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 65,
+        "FileName": "agno",
+        "Title": "Agnostic",
+        "Artist": "AiSS",
+        "CoverPainter": "绝望",
+        "BPMRange": "167",
+        "AudioPreviewFrom": 37500,
+        "AudioPreviewTo": 60000,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 4.0,
+                "Difficulty": "4",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 352
+            },
+            {
+                "Rating": 8.4,
+                "Difficulty": "8",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 654
+            },
+            {
+                "Rating": 10.6,
+                "Difficulty": "10⁺",
+                "ChartDesigner": "KevinLin",
+                "NoteCount": 1141
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 66,
+        "FileName": "butter",
+        "Title": "1 Spoon of Butter",
+        "Artist": "Solanum Tuberosum",
+        "CoverPainter": "FISHXL鱼小洛",
+        "BPMRange": "220",
+        "AudioPreviewFrom": 91700,
+        "AudioPreviewTo": 108525,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 3.0,
+                "Difficulty": "3",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 215
+            },
+            {
+                "Rating": 6.5,
+                "Difficulty": "6",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 457
+            },
+            {
+                "Rating": 10.0,
+                "Difficulty": "10",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 607
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 67,
+        "FileName": "naku",
+        "Title": "Nakunaru",
+        "Artist": "P3T",
+        "CoverPainter": "Keiby",
+        "BPMRange": "200",
+        "AudioPreviewFrom": 22334,
+        "AudioPreviewTo": 41534,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 2.0,
+                "Difficulty": "2",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 301
+            },
+            {
+                "Rating": 7.0,
+                "Difficulty": "7",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 733
+            },
+            {
+                "Rating": 11.2,
+                "Difficulty": "11",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 1205
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 68,
+        "FileName": "snow",
+        "Title": "Snow Dance",
+        "Artist": "悠叶いのり",
+        "CoverPainter": "Mad Project",
+        "BPMRange": "188",
+        "AudioPreviewFrom": 82330,
+        "AudioPreviewTo": 98287,
+        "InitialUnlock": false,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 2.0,
+                "Difficulty": "2",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 156
+            },
+            {
+                "Rating": 7.2,
+                "Difficulty": "7",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 554
+            },
+            {
+                "Rating": 10.2,
+                "Difficulty": "10",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 849
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 69,
+        "FileName": "singularity",
+        "Title": "Singularity",
+        "Artist": "Jun Kuroda",
+        "CoverPainter": "味增",
+        "BPMRange": "175",
+        "AudioPreviewFrom": 68889,
+        "AudioPreviewTo": 89460,
+        "InitialUnlock": true,
+        "Lockhint": 0,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 2.0,
+                "Difficulty": "2",
+                "ChartDesigner": "7ri1iz4tion",
+                "NoteCount": 376
+            },
+            {
+                "Rating": 9.2,
+                "Difficulty": "9",
+                "ChartDesigner": "轮转之白Uyuki",
+                "NoteCount": 701
+            },
+            {
+                "Rating": 10.3,
+                "Difficulty": "10",
+                "ChartDesigner": "7ri1iz4tion",
+                "NoteCount": 906
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 70,
+        "FileName": "ig",
+        "Title": "Iridescent Gazer",
+        "Artist": "polysha",
+        "CoverPainter": "QIER",
+        "BPMRange": "160",
+        "AudioPreviewFrom": 73500,
+        "AudioPreviewTo": 97500,
+        "InitialUnlock": true,
+        "Lockhint": 0,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 3.5,
+                "Difficulty": "3",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 301
+            },
+            {
+                "Rating": 6.5,
+                "Difficulty": "6",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 585
+            },
+            {
+                "Rating": 10.4,
+                "Difficulty": "10",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 806
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 71,
+        "FileName": "proto",
+        "Title": "proto:messiah",
+        "Artist": "かゆき",
+        "CoverPainter": "TARO_head（.001）",
+        "BPMRange": "45~158",
+        "AudioPreviewFrom": 87416,
+        "AudioPreviewTo": 112100,
+        "InitialUnlock": true,
+        "Lockhint": 0,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 3.0,
+                "Difficulty": "3",
+                "ChartDesigner": "zilithe",
+                "NoteCount": 434
+            },
+            {
+                "Rating": 7.8,
+                "Difficulty": "7",
+                "ChartDesigner": "zilithe",
+                "NoteCount": 908
+            },
+            {
+                "Rating": 10.5,
+                "Difficulty": "10⁺",
+                "ChartDesigner": "zilithe",
+                "NoteCount": 1083
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 72,
+        "FileName": "enchanted",
+        "Title": "Enchanted",
+        "Artist": "ARForest",
+        "CoverPainter": "神酒",
+        "BPMRange": "185",
+        "AudioPreviewFrom": 44253,
+        "AudioPreviewTo": 65900,
+        "InitialUnlock": true,
+        "Lockhint": 0,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 2.5,
+                "Difficulty": "2",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 330
+            },
+            {
+                "Rating": 8.2,
+                "Difficulty": "8",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 722
+            },
+            {
+                "Rating": 11.2,
+                "Difficulty": "11",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 1115
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 73,
+        "FileName": "demme",
+        "Title": "Fiend Demme",
+        "Artist": "Delaina as \"ZxNX\"",
+        "CoverPainter": "QIER",
+        "BPMRange": "210",
+        "AudioPreviewFrom": 41310,
+        "AudioPreviewTo": 59359,
+        "InitialUnlock": true,
+        "Lockhint": 0,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 2.5,
+                "Difficulty": "2",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 493
+            },
+            {
+                "Rating": 9.8,
+                "Difficulty": "9⁺",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 1000
+            },
+            {
+                "Rating": 11.7,
+                "Difficulty": "11⁺",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 1220
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 74,
+        "FileName": "requiem",
+        "Title": "Requiem Cataclysm",
+        "Artist": "5KiLOBYTE & Raphiiel",
+        "CoverPainter": "寝湖",
+        "BPMRange": "222.222",
+        "AudioPreviewFrom": 2790,
+        "AudioPreviewTo": 20710,
+        "InitialUnlock": false,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 4.0,
+                "Difficulty": "4",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 439
+            },
+            {
+                "Rating": 9.6,
+                "Difficulty": "9⁺",
+                "ChartDesigner": "卯雪白Uyuki",
+                "NoteCount": 832
+            },
+            {
+                "Rating": 11.8,
+                "Difficulty": "11⁺",
+                "ChartDesigner": "停留此地之白Uyuki",
+                "NoteCount": 1500
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 75,
+        "FileName": "splatter",
+        "Title": "Splatter Doll",
+        "Artist": "モリモリあつし",
+        "CoverPainter": "わんびぃ",
+        "BPMRange": "220~260",
+        "AudioPreviewFrom": 63000,
+        "AudioPreviewTo": 80727,
+        "InitialUnlock": false,
+        "Lockhint": 0,
+        "Watermark": false,
+        "Difficulties": [
+            {
+                "Rating": 3.0,
+                "Difficulty": "3",
+                "ChartDesigner": "r567as",
+                "NoteCount": 367
+            },
+            {
+                "Rating": 8.0,
+                "Difficulty": "8",
+                "ChartDesigner": "r567as",
+                "NoteCount": 660
+            },
+            {
+                "Rating": 10.5,
+                "Difficulty": "10⁺",
+                "ChartDesigner": "r567as",
+                "NoteCount": 865
+            },
+            {
+                "Rating": 0,
+                "Difficulty": "狂",
+                "ChartDesigner": "r567as",
+                "NoteCount": 1323
+            }
+        ]
+    },
+    {
+        "MusicID": 76,
+        "FileName": "as",
+        "Title": "Acht Streiks",
+        "Artist": "Epthys",
+        "CoverPainter": "FISHXXXXL",
+        "BPMRange": "522",
+        "AudioPreviewFrom": 0,
+        "AudioPreviewTo": 16611,
+        "InitialUnlock": true,
+        "Lockhint": 0,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 0,
+                "Difficulty": "飚",
+                "ChartDesigner": "April's Angel",
+                "NoteCount": 2022
+            },
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "MusicID": 77,
+        "FileName": "headache41",
+        "Title": "Hea Dac He",
+        "Artist": "NceS",
+        "CoverPainter": "FISHXL鱼小洛",
+        "BPMRange": "140",
+        "AudioPreviewFrom": 52355,
+        "AudioPreviewTo": 72690,
+        "InitialUnlock": true,
+        "Lockhint": 0,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 0,
+                "Difficulty": "艺",
+                "ChartDesigner": "佑木いずみ先生",
+                "NoteCount": 864
+            },
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "MusicID": 78,
+        "FileName": "eligos41",
+        "Title": "Eligos",
+        "Artist": "Team Grimoire",
+        "CoverPainter": "镜璃",
+        "BPMRange": "234",
+        "AudioPreviewFrom": 3433,
+        "AudioPreviewTo": 20356,
+        "InitialUnlock": true,
+        "Lockhint": 0,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 0,
+                "Difficulty": "⑾⁺",
+                "ChartDesigner": "尘云星白の复仇",
+                "NoteCount": 1626
+            },
+            {
+                "Rating": 0,
+                "Difficulty": "BT",
+                "ChartDesigner": "Big_True's first chart, and you'll see why I don't make charts",
+                "NoteCount": 1703
+            },
+            null,
+            null
+        ]
+    },
+    {
+        "MusicID": 79,
+        "FileName": "tsu",
+        "Title": "TSUSURVIVORGAMUSH",
+        "Artist": "Family Farce",
+        "CoverPainter": "MARI",
+        "BPMRange": "105~395",
+        "AudioPreviewFrom": 31909,
+        "AudioPreviewTo": 55182,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 2.0,
+                "Difficulty": "2",
+                "ChartDesigner": "r567as vs. UyukiChan",
+                "NoteCount": 313
+            },
+            {
+                "Rating": 6.0,
+                "Difficulty": "6",
+                "ChartDesigner": "r567as vs. UyukiChan",
+                "NoteCount": 443
+            },
+            {
+                "Rating": 10.6,
+                "Difficulty": "10⁺",
+                "ChartDesigner": "r567as vs. UyukiChan",
+                "NoteCount": 716
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 80,
+        "FileName": "ag",
+        "Title": "Access Granted",
+        "Artist": "LUNARiUM",
+        "CoverPainter": "Sin.",
+        "BPMRange": "170",
+        "AudioPreviewFrom": 94628,
+        "AudioPreviewTo": 117216,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 3.0,
+                "Difficulty": "3",
+                "ChartDesigner": "Verification by UyukiChan",
+                "NoteCount": 292
+            },
+            {
+                "Rating": 7.2,
+                "Difficulty": "7",
+                "ChartDesigner": "Verification by UyukiChan",
+                "NoteCount": 728
+            },
+            {
+                "Rating": 10.9,
+                "Difficulty": "10⁺",
+                "ChartDesigner": "Verification by UyukiChan",
+                "NoteCount": 1038
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 81,
+        "FileName": "ad",
+        "Title": "Access Denied",
+        "Artist": "Knighthood",
+        "CoverPainter": "Sin.",
+        "BPMRange": "185",
+        "AudioPreviewFrom": 42795,
+        "AudioPreviewTo": 65174,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 2.0,
+                "Difficulty": "2",
+                "ChartDesigner": "Blocker UyukiChan vs. 尘云星白",
+                "NoteCount": 281
+            },
+            {
+                "Rating": 5.5,
+                "Difficulty": "5",
+                "ChartDesigner": "Blocker UyukiChan vs. 尘云星白",
+                "NoteCount": 505
+            },
+            {
+                "Rating": 11.0,
+                "Difficulty": "11",
+                "ChartDesigner": "Blocker UyukiChan vs. 尘云星白",
+                "NoteCount": 947
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 82,
+        "FileName": "vanishing",
+        "Title": "Vanishing Glimmer",
+        "Artist": "Tetrajectory",
+        "CoverPainter": "云熙菌_YUN",
+        "BPMRange": "180",
+        "AudioPreviewFrom": 108762,
+        "AudioPreviewTo": 131088,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 3.0,
+                "Difficulty": "3",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 398
+            },
+            {
+                "Rating": 6.5,
+                "Difficulty": "6",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 648
+            },
+            {
+                "Rating": 10.5,
+                "Difficulty": "10⁺",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 989
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 83,
+        "FileName": "over",
+        "Title": "CROSS†OVER",
+        "Artist": "HyuN feat. LyuU",
+        "CoverPainter": "蒔隙嵐",
+        "BPMRange": "200",
+        "AudioPreviewFrom": 11300,
+        "AudioPreviewTo": 30500,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 4.0,
+                "Difficulty": "4",
+                "ChartDesigner": "r567as",
+                "NoteCount": 409
+            },
+            {
+                "Rating": 7.4,
+                "Difficulty": "7",
+                "ChartDesigner": "r567as",
+                "NoteCount": 796
+            },
+            {
+                "Rating": 10.7,
+                "Difficulty": "10⁺",
+                "ChartDesigner": "r567as",
+                "NoteCount": 1131
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 84,
+        "FileName": "sw",
+        "Title": "斷劍の獄",
+        "Artist": "Rayson",
+        "CoverPainter": "中村崎界Karia",
+        "BPMRange": "180",
+        "AudioPreviewFrom": 22661,
+        "AudioPreviewTo": 43994,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 2.0,
+                "Difficulty": "2",
+                "ChartDesigner": "UyukiChan feat. Miocenne",
+                "NoteCount": 269
+            },
+            {
+                "Rating": 6.5,
+                "Difficulty": "6",
+                "ChartDesigner": "UyukiChan feat. Miocenne",
+                "NoteCount": 709
+            },
+            {
+                "Rating": 11.3,
+                "Difficulty": "11",
+                "ChartDesigner": "UyukiChan feat. Miocenne",
+                "NoteCount": 1130
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 85,
+        "FileName": "chuyin",
+        "Title": "目が覚めた時",
+        "Artist": "Gasai_Tomoya/TAOTIE",
+        "CoverPainter": "镜璃",
+        "BPMRange": "180",
+        "AudioPreviewFrom": 67383,
+        "AudioPreviewTo": 88383,
+        "InitialUnlock": false,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 3.0,
+                "Difficulty": "3",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 481
+            },
+            {
+                "Rating": 8.2,
+                "Difficulty": "8",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 813
+            },
+            {
+                "Rating": 10.4,
+                "Difficulty": "10",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 1046
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 86,
+        "FileName": "pulin",
+        "Title": "Pullin' Me Down (To The 90's Groove)",
+        "Artist": "90's 佑木いずみ",
+        "CoverPainter": "domequator",
+        "BPMRange": "161",
+        "AudioPreviewFrom": 49565,
+        "AudioPreviewTo": 73416,
+        "InitialUnlock": false,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 4.0,
+                "Difficulty": "4",
+                "ChartDesigner": "尘云星白 in the 90's",
+                "NoteCount": 393
+            },
+            {
+                "Rating": 7.4,
+                "Difficulty": "7",
+                "ChartDesigner": "尘云星白 in the 90's",
+                "NoteCount": 665
+            },
+            {
+                "Rating": 10.6,
+                "Difficulty": "10⁺",
+                "ChartDesigner": "尘云星白 in the 90's",
+                "NoteCount": 987
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 87,
+        "FileName": "l",
+        "Title": "bring me to life",
+        "Artist": "repellentic",
+        "CoverPainter": "镜璃",
+        "BPMRange": "145",
+        "AudioPreviewFrom": 49152,
+        "AudioPreviewTo": 69140,
+        "InitialUnlock": false,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 2.0,
+                "Difficulty": "2",
+                "ChartDesigner": "7ri1iz4tion",
+                "NoteCount": 298
+            },
+            {
+                "Rating": 7.8,
+                "Difficulty": "7",
+                "ChartDesigner": "7ri1iz4tion",
+                "NoteCount": 690
+            },
+            {
+                "Rating": 11.0,
+                "Difficulty": "11",
+                "ChartDesigner": "7ri1iz4tion",
+                "NoteCount": 915
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 88,
+        "FileName": "escape",
+        "Title": "Escape",
+        "Artist": "All_Life_X&MXTC",
+        "CoverPainter": "Catknife",
+        "BPMRange": "180",
+        "AudioPreviewFrom": 60940,
+        "AudioPreviewTo": 76428,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": false,
+        "Difficulties": [
+            {
+                "Rating": 2.0,
+                "Difficulty": "2",
+                "ChartDesigner": "zilithe",
+                "NoteCount": 243
+            },
+            {
+                "Rating": 6.5,
+                "Difficulty": "6",
+                "ChartDesigner": "white",
+                "NoteCount": 453
+            },
+            {
+                "Rating": 9.7,
+                "Difficulty": "9⁺",
+                "ChartDesigner": "zilithe&white",
+                "NoteCount": 612
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 89,
+        "FileName": "echoes",
+        "Title": "Echoes of the Night",
+        "Artist": "PYKAMIA",
+        "CoverPainter": "研澄です",
+        "BPMRange": "175",
+        "AudioPreviewFrom": 25569,
+        "AudioPreviewTo": 47512,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": false,
+        "Difficulties": [
+            {
+                "Rating": 3.0,
+                "Difficulty": "3",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 380
+            },
+            {
+                "Rating": 6.0,
+                "Difficulty": "6",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 666
+            },
+            {
+                "Rating": 10.5,
+                "Difficulty": "10⁺",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 1016
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 90,
+        "FileName": "xing",
+        "Title": "星相运轨-The End of Time-",
+        "Artist": "EndCat-终猫",
+        "CoverPainter": "87度空气",
+        "BPMRange": "160",
+        "AudioPreviewFrom": 25530,
+        "AudioPreviewTo": 48779,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 2.0,
+                "Difficulty": "2",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 292
+            },
+            {
+                "Rating": 5.5,
+                "Difficulty": "5",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 584
+            },
+            {
+                "Rating": 10.9,
+                "Difficulty": "10⁺",
+                "ChartDesigner": "尘云星白-白星云尘",
+                "NoteCount": 897
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 91,
+        "FileName": "shiro",
+        "Title": "Be With Me",
+        "Artist": "PoppoOVO",
+        "CoverPainter": "Be with Kagamiri",
+        "BPMRange": "175",
+        "AudioPreviewFrom": 45257,
+        "AudioPreviewTo": 67199,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 2.0,
+                "Difficulty": "2",
+                "ChartDesigner": "Be with UyukiChan",
+                "NoteCount": 281
+            },
+            {
+                "Rating": 7.6,
+                "Difficulty": "7",
+                "ChartDesigner": "Be with UyukiChan",
+                "NoteCount": 520
+            },
+            {
+                "Rating": 10.8,
+                "Difficulty": "10⁺",
+                "ChartDesigner": "Be with UyukiChan",
+                "NoteCount": 799
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 92,
+        "FileName": "dazheng",
+        "Title": "大正星空ロマンス",
+        "Artist": "PYKAMIA",
+        "CoverPainter": "イオン",
+        "BPMRange": "130",
+        "AudioPreviewFrom": 1458,
+        "AudioPreviewTo": 18997,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": false,
+        "Difficulties": [
+            {
+                "Rating": 2.0,
+                "Difficulty": "2",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 346
+            },
+            {
+                "Rating": 7.4,
+                "Difficulty": "7",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 602
+            },
+            {
+                "Rating": 9.9,
+                "Difficulty": "9⁺",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 791
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 93,
+        "FileName": "world",
+        "Title": "光と色の世界",
+        "Artist": "PYKAMIA",
+        "CoverPainter": "Tefco",
+        "BPMRange": "260",
+        "AudioPreviewFrom": 25991,
+        "AudioPreviewTo": 43991,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": false,
+        "Difficulties": [
+            {
+                "Rating": 2.0,
+                "Difficulty": "2",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 326
+            },
+            {
+                "Rating": 6.0,
+                "Difficulty": "6",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 528
+            },
+            {
+                "Rating": 9.8,
+                "Difficulty": "9⁺",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 644
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 94,
+        "FileName": "colorful",
+        "Title": "Colorful Subi",
+        "Artist": "PYKAMIA",
+        "CoverPainter": "eskimofox",
+        "BPMRange": "150",
+        "AudioPreviewFrom": 53781,
+        "AudioPreviewTo": 79936,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": false,
+        "Difficulties": [
+            {
+                "Rating": 3.0,
+                "Difficulty": "3",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 407
+            },
+            {
+                "Rating": 6.0,
+                "Difficulty": "6",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 680
+            },
+            {
+                "Rating": 10.4,
+                "Difficulty": "10",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 905
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 95,
+        "FileName": "hexin",
+        "Title": "核心共振",
+        "Artist": "烈风",
+        "CoverPainter": "Niba",
+        "BPMRange": "267",
+        "AudioPreviewFrom": 3595,
+        "AudioPreviewTo": 17977,
+        "InitialUnlock": false,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 3.0,
+                "Difficulty": "3",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 429
+            },
+            {
+                "Rating": 8.4,
+                "Difficulty": "8",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 921
+            },
+            {
+                "Rating": 11.9,
+                "Difficulty": "11⁺",
+                "ChartDesigner": "超越一切！震慑凡人！",
+                "NoteCount": 1344
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 96,
+        "FileName": "haer",
+        "Title": "Haerkzs",
+        "Artist": "NceS",
+        "CoverPainter": "domequator",
+        "BPMRange": "150",
+        "AudioPreviewFrom": 52874,
+        "AudioPreviewTo": 78474,
+        "InitialUnlock": true,
+        "Lockhint": 0,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 2.5,
+                "Difficulty": "2",
+                "ChartDesigner": "zilithe",
+                "NoteCount": 302
+            },
+            {
+                "Rating": 7.0,
+                "Difficulty": "7",
+                "ChartDesigner": "zilithe",
+                "NoteCount": 486
+            },
+            {
+                "Rating": 10.3,
+                "Difficulty": "10",
+                "ChartDesigner": "zilithe",
+                "NoteCount": 813
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 97,
+        "FileName": "freedom",
+        "Title": "Freedom Wing",
+        "Artist": "HyuN",
+        "CoverPainter": "玛丽姬米花",
+        "BPMRange": "164",
+        "AudioPreviewFrom": 2210,
+        "AudioPreviewTo": 26179,
+        "InitialUnlock": true,
+        "Lockhint": 0,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 1.5,
+                "Difficulty": "1",
+                "ChartDesigner": "星白炸薯条",
+                "NoteCount": 258
+            },
+            {
+                "Rating": 6.5,
+                "Difficulty": "6",
+                "ChartDesigner": "星白炸薯条",
+                "NoteCount": 456
+            },
+            {
+                "Rating": 10.2,
+                "Difficulty": "10",
+                "ChartDesigner": "星白炸薯条",
+                "NoteCount": 790
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 98,
+        "FileName": "falsely",
+        "Title": "Falsely",
+        "Artist": "Fuuryn.G vs AiSS ft. Sepia",
+        "CoverPainter": "老邦",
+        "BPMRange": "174",
+        "AudioPreviewFrom": 46119,
+        "AudioPreviewTo": 68170,
+        "InitialUnlock": true,
+        "Lockhint": 0,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 2.0,
+                "Difficulty": "2",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 322
+            },
+            {
+                "Rating": 7.8,
+                "Difficulty": "7",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 580
+            },
+            {
+                "Rating": 10.6,
+                "Difficulty": "10⁺",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 849
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 99,
+        "FileName": "forbidden",
+        "Title": "FORBIDDEN MAGICKA",
+        "Artist": "Akira Complex vs. kiraku",
+        "CoverPainter": "Sin.",
+        "BPMRange": "160",
+        "AudioPreviewFrom": 42900,
+        "AudioPreviewTo": 66900,
+        "InitialUnlock": true,
+        "Lockhint": 0,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 3.5,
+                "Difficulty": "3",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 416
+            },
+            {
+                "Rating": 6.5,
+                "Difficulty": "6",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 619
+            },
+            {
+                "Rating": 11.0,
+                "Difficulty": "11",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 1113
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 100,
+        "FileName": "saint",
+        "Title": "Saintelmo",
+        "Artist": "Aoi",
+        "CoverPainter": "MARI失忆了",
+        "BPMRange": "200",
+        "AudioPreviewFrom": 83414,
+        "AudioPreviewTo": 103214,
+        "InitialUnlock": true,
+        "Lockhint": 0,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 3.5,
+                "Difficulty": "3",
+                "ChartDesigner": "cyxb",
+                "NoteCount": 387
+            },
+            {
+                "Rating": 8.4,
+                "Difficulty": "8",
+                "ChartDesigner": "cyxb",
+                "NoteCount": 719
+            },
+            {
+                "Rating": 11.7,
+                "Difficulty": "11⁺",
+                "ChartDesigner": "cyxb",
+                "NoteCount": 1122
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 101,
+        "FileName": "ga",
+        "Title": "Gamol Hundgēar",
+        "Artist": "Epthys",
+        "CoverPainter": "FISHXL",
+        "BPMRange": "258",
+        "AudioPreviewFrom": 273,
+        "AudioPreviewTo": 16785,
+        "InitialUnlock": false,
+        "Lockhint": 0,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 4.0,
+                "Difficulty": "4",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 476
+            },
+            {
+                "Rating": 9.3,
+                "Difficulty": "9",
+                "ChartDesigner": "CWind",
+                "NoteCount": 775
+            },
+            {
+                "Rating": 11.4,
+                "Difficulty": "11",
+                "ChartDesigner": "CWind",
+                "NoteCount": 1043
+            },
+            {
+                "Rating": 0,
+                "Difficulty": "12",
+                "ChartDesigner": "终焉梦魔",
+                "NoteCount": 1127
+            }
+        ]
+    },
+    {
+        "MusicID": 102,
+        "FileName": "date",
+        "Title": "First Date (feat. Ei)",
+        "Artist": "DJ Zed & Darren",
+        "CoverPainter": "四度",
+        "BPMRange": "170",
+        "AudioPreviewFrom": 82126,
+        "AudioPreviewTo": 103714,
+        "InitialUnlock": false,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 3.0,
+                "Difficulty": "3",
+                "ChartDesigner": "zilithe",
+                "NoteCount": 407
+            },
+            {
+                "Rating": 8.2,
+                "Difficulty": "8",
+                "ChartDesigner": "zilithe",
+                "NoteCount": 617
+            },
+            {
+                "Rating": 10.3,
+                "Difficulty": "10",
+                "ChartDesigner": "zilithe with love",
+                "NoteCount": 874
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 103,
+        "FileName": "tre",
+        "Title": "Treflux",
+        "Artist": "RAI",
+        "CoverPainter": "TARO_head",
+        "BPMRange": "210",
+        "AudioPreviewFrom": 37774,
+        "AudioPreviewTo": 56600,
+        "InitialUnlock": false,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 2.5,
+                "Difficulty": "2",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 363
+            },
+            {
+                "Rating": 9.1,
+                "Difficulty": "9",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 618
+            },
+            {
+                "Rating": 11.1,
+                "Difficulty": "11",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 814
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 104,
+        "FileName": "ifr",
+        "Title": "iΓ-fǝRric",
+        "Artist": "Shanom",
+        "CoverPainter": "87度空气",
+        "BPMRange": "220",
+        "AudioPreviewFrom": 23879,
+        "AudioPreviewTo": 32611,
+        "InitialUnlock": false,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 4.0,
+                "Difficulty": "4",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 460
+            },
+            {
+                "Rating": 8.8,
+                "Difficulty": "8",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 830
+            },
+            {
+                "Rating": 11.4,
+                "Difficulty": "11",
+                "ChartDesigner": "尘云星白 & r567as",
+                "NoteCount": 1249
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 105,
+        "FileName": "rainbow",
+        "Title": "rainbow",
+        "Artist": "ああああ",
+        "CoverPainter": "镜璃",
+        "BPMRange": "199",
+        "AudioPreviewFrom": 44989,
+        "AudioPreviewTo": 63381,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 3.0,
+                "Difficulty": "3",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 444
+            },
+            {
+                "Rating": 7.2,
+                "Difficulty": "7",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 655
+            },
+            {
+                "Rating": 10.5,
+                "Difficulty": "10⁺",
+                "ChartDesigner": "尘云星白 ft.藜",
+                "NoteCount": 952
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 106,
+        "FileName": "human",
+        "Title": "Human Observer",
+        "Artist": "rmk",
+        "CoverPainter": "FISHXL鱼小洛",
+        "BPMRange": "180",
+        "AudioPreviewFrom": 58631,
+        "AudioPreviewTo": 79964,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 1.0,
+                "Difficulty": "1",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 263
+            },
+            {
+                "Rating": 5.5,
+                "Difficulty": "5",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 419
+            },
+            {
+                "Rating": 10.2,
+                "Difficulty": "10",
+                "ChartDesigner": "让我康康",
+                "NoteCount": 592
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 107,
+        "FileName": "nhelv",
+        "Title": "Nhelv",
+        "Artist": "Silentroom",
+        "CoverPainter": "駿",
+        "BPMRange": "174.59",
+        "AudioPreviewFrom": 44760,
+        "AudioPreviewTo": 67443,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": false,
+        "Difficulties": [
+            {
+                "Rating": 5.0,
+                "Difficulty": "5",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 591
+            },
+            {
+                "Rating": 0,
+                "Difficulty": "?",
+                "ChartDesigner": "?",
+                "NoteCount": 742
+            },
+            {
+                "Rating": 9.9,
+                "Difficulty": "9⁺",
+                "ChartDesigner": "星白helv",
+                "NoteCount": 818
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 108,
+        "FileName": "night",
+        "Title": "NightTheater",
+        "Artist": "わかどり",
+        "CoverPainter": "TARO_head",
+        "BPMRange": "151",
+        "AudioPreviewFrom": 27890,
+        "AudioPreviewTo": 52520,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 2.5,
+                "Difficulty": "2",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 374
+            },
+            {
+                "Rating": 7.6,
+                "Difficulty": "7",
+                "ChartDesigner": "Mass -50",
+                "NoteCount": 577
+            },
+            {
+                "Rating": 10.5,
+                "Difficulty": "10⁺",
+                "ChartDesigner": "Mass -50",
+                "NoteCount": 737
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 109,
+        "FileName": "yinshijie",
+        "Title": "銀世界にひとり",
+        "Artist": "後藤 feat. nayuta",
+        "CoverPainter": "三湊かおり",
+        "BPMRange": "190",
+        "AudioPreviewFrom": 46197,
+        "AudioPreviewTo": 65766,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": false,
+        "Difficulties": [
+            {
+                "Rating": 2.0,
+                "Difficulty": "2",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 321
+            },
+            {
+                "Rating": 6.0,
+                "Difficulty": "6",
+                "ChartDesigner": "星白",
+                "NoteCount": 513
+            },
+            {
+                "Rating": 10.5,
+                "Difficulty": "10⁺",
+                "ChartDesigner": "白",
+                "NoteCount": 738
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 110,
+        "FileName": "eye",
+        "Title": "Helical Eye",
+        "Artist": "VeetaCrush",
+        "CoverPainter": "",
+        "BPMRange": "132",
+        "AudioPreviewFrom": 46288,
+        "AudioPreviewTo": 68860,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": false,
+        "Difficulties": [
+            {
+                "Rating": 1.0,
+                "Difficulty": "1",
+                "ChartDesigner": "zilithe",
+                "NoteCount": 202
+            },
+            {
+                "Rating": 6.0,
+                "Difficulty": "6",
+                "ChartDesigner": "zilithe",
+                "NoteCount": 493
+            },
+            {
+                "Rating": 9.8,
+                "Difficulty": "9⁺",
+                "ChartDesigner": "zilithe feat. r567as",
+                "NoteCount": 626
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 111,
+        "FileName": "code7",
+        "Title": "Final Code-7",
+        "Artist": "Roon_kun",
+        "CoverPainter": "",
+        "BPMRange": "140",
+        "AudioPreviewFrom": 29247,
+        "AudioPreviewTo": 49819,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": false,
+        "Difficulties": [
+            {
+                "Rating": 2.0,
+                "Difficulty": "2",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 380
+            },
+            {
+                "Rating": 7.4,
+                "Difficulty": "7",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 645
+            },
+            {
+                "Rating": 10.4,
+                "Difficulty": "10",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 894
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 112,
+        "FileName": "benyue",
+        "Title": "嫦娥奔月 -Lunar Paradoxx-",
+        "Artist": "Kaori<Master/B3>Aizawa",
+        "CoverPainter": "",
+        "BPMRange": "150",
+        "AudioPreviewFrom": 87254,
+        "AudioPreviewTo": 114854,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": false,
+        "Difficulties": [
+            {
+                "Rating": 4.0,
+                "Difficulty": "4",
+                "ChartDesigner": "cháng é been moon",
+                "NoteCount": 465
+            },
+            {
+                "Rating": 9.8,
+                "Difficulty": "9⁺",
+                "ChartDesigner": "cháng é been moon",
+                "NoteCount": 1091
+            },
+            {
+                "Rating": 11.1,
+                "Difficulty": "11",
+                "ChartDesigner": "cháng é been moon",
+                "NoteCount": 1460
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 113,
+        "FileName": "syrinx",
+        "Title": "Syrinx",
+        "Artist": "Project Myth",
+        "CoverPainter": "",
+        "BPMRange": "169",
+        "AudioPreviewFrom": 60990,
+        "AudioPreviewTo": 84422,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": false,
+        "Difficulties": [
+            {
+                "Rating": 3.0,
+                "Difficulty": "3",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 385
+            },
+            {
+                "Rating": 7.0,
+                "Difficulty": "7",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 668
+            },
+            {
+                "Rating": 11.1,
+                "Difficulty": "11",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 1068
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 114,
+        "FileName": "ca",
+        "Title": "Crush Alcohol",
+        "Artist": "shadow_bling",
+        "CoverPainter": "shadow_bling",
+        "BPMRange": "180",
+        "AudioPreviewFrom": 32200,
+        "AudioPreviewTo": 53555,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": false,
+        "Difficulties": [
+            {
+                "Rating": 3.0,
+                "Difficulty": "3",
+                "ChartDesigner": "LeadLink",
+                "NoteCount": 343
+            },
+            {
+                "Rating": 9.6,
+                "Difficulty": "9⁺",
+                "ChartDesigner": "LeadLink",
+                "NoteCount": 650
+            },
+            {
+                "Rating": 11.6,
+                "Difficulty": "11⁺",
+                "ChartDesigner": "InterJoke ft. Uyuki&KevinLin",
+                "NoteCount": 1364
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 115,
+        "FileName": "cb",
+        "Title": "Crush BETA",
+        "Artist": "shadow_bling",
+        "CoverPainter": "镜璃 & Citrius",
+        "BPMRange": "200",
+        "AudioPreviewFrom": 48619,
+        "AudioPreviewTo": 69319,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 2.5,
+                "Difficulty": "2",
+                "ChartDesigner": "LeadLink",
+                "NoteCount": 407
+            },
+            {
+                "Rating": 9.1,
+                "Difficulty": "9",
+                "ChartDesigner": "LeadLink",
+                "NoteCount": 876
+            },
+            {
+                "Rating": 11.3,
+                "Difficulty": "11",
+                "ChartDesigner": "Uyuki BETA",
+                "NoteCount": 1227
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 116,
+        "FileName": "ck",
+        "Title": "Crush Keyboard",
+        "Artist": "shadow_bling",
+        "CoverPainter": "shadow_bling",
+        "BPMRange": "250",
+        "AudioPreviewFrom": 113179,
+        "AudioPreviewTo": 129139,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": false,
+        "Difficulties": [
+            {
+                "Rating": 3.0,
+                "Difficulty": "3",
+                "ChartDesigner": "紫薯布丁*8",
+                "NoteCount": 405
+            },
+            {
+                "Rating": 9.4,
+                "Difficulty": "9",
+                "ChartDesigner": "紫薯布丁*8",
+                "NoteCount": 718
+            },
+            {
+                "Rating": 11.4,
+                "Difficulty": "11",
+                "ChartDesigner": "UyukiChan ft. KevinLin",
+                "NoteCount": 1320
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 117,
+        "FileName": "nalaibani",
+        "Title": "Give It To Me",
+        "Artist": "OutLogic",
+        "CoverPainter": "FISHXL鱼小洛",
+        "BPMRange": "175",
+        "AudioPreviewFrom": 77525,
+        "AudioPreviewTo": 100839,
+        "InitialUnlock": false,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 2.0,
+                "Difficulty": "2",
+                "ChartDesigner": "星白补了个难度",
+                "NoteCount": 433
+            },
+            {
+                "Rating": 7.2,
+                "Difficulty": "7",
+                "ChartDesigner": "星白又补了个难度",
+                "NoteCount": 833
+            },
+            {
+                "Rating": 11.1,
+                "Difficulty": "11",
+                "ChartDesigner": "拿来把你 feat. LIend",
+                "NoteCount": 1228
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 118,
+        "FileName": "zero",
+        "Title": "Target▲Zero",
+        "Artist": "WyvernP",
+        "CoverPainter": "domequator",
+        "BPMRange": "152",
+        "AudioPreviewFrom": 91628,
+        "AudioPreviewTo": 116892,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 1.0,
+                "Difficulty": "1",
+                "ChartDesigner": "zilithe▲",
+                "NoteCount": 345
+            },
+            {
+                "Rating": 5.5,
+                "Difficulty": "5",
+                "ChartDesigner": "zilithe▲",
+                "NoteCount": 683
+            },
+            {
+                "Rating": 10.3,
+                "Difficulty": "10",
+                "ChartDesigner": "zilithe▲",
+                "NoteCount": 1050
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 119,
+        "FileName": "cracked",
+        "Title": "Cracked",
+        "Artist": "影虎。",
+        "CoverPainter": "TARO_head",
+        "BPMRange": "148",
+        "AudioPreviewFrom": 15790,
+        "AudioPreviewTo": 39404,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 2.0,
+                "Difficulty": "2",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 331
+            },
+            {
+                "Rating": 7.4,
+                "Difficulty": "7",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 612
+            },
+            {
+                "Rating": 10.6,
+                "Difficulty": "10⁺",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 1063
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 120,
+        "FileName": "avys",
+        "Title": "Avys",
+        "Artist": "Se-U-Ra",
+        "CoverPainter": "Se-U-Ra",
+        "BPMRange": "182",
+        "AudioPreviewFrom": 45519,
+        "AudioPreviewTo": 66618,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 2.0,
+                "Difficulty": "2",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 350
+            },
+            {
+                "Rating": 6.5,
+                "Difficulty": "6",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 565
+            },
+            {
+                "Rating": 10.7,
+                "Difficulty": "10⁺",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 942
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 121,
+        "FileName": "gravity",
+        "Title": "GRAVITY ZOИE",
+        "Artist": "seatrus",
+        "CoverPainter": "MARI",
+        "BPMRange": "166",
+        "AudioPreviewFrom": 83921,
+        "AudioPreviewTo": 102717,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 3.0,
+                "Difficulty": "3",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 333
+            },
+            {
+                "Rating": 8.6,
+                "Difficulty": "8",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 555
+            },
+            {
+                "Rating": 11.4,
+                "Difficulty": "11",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 1004
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 122,
+        "FileName": "angel",
+        "Title": "Dead Angel",
+        "Artist": "D_AAN",
+        "CoverPainter": "87度空气",
+        "BPMRange": "210",
+        "AudioPreviewFrom": 110857,
+        "AudioPreviewTo": 129142,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 4.0,
+                "Difficulty": "4",
+                "ChartDesigner": "血月恶魔",
+                "NoteCount": 555
+            },
+            {
+                "Rating": 8.6,
+                "Difficulty": "8",
+                "ChartDesigner": "血月恶魔",
+                "NoteCount": 824
+            },
+            {
+                "Rating": 11.8,
+                "Difficulty": "11⁺",
+                "ChartDesigner": "血月恶魔",
+                "NoteCount": 1292
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 123,
+        "FileName": "heihuangdi",
+        "Title": "Le Porteur d'Ombre",
+        "Artist": "黒皇帝 feat. AKA",
+        "CoverPainter": "NekoFTR",
+        "BPMRange": "220",
+        "AudioPreviewFrom": 70994,
+        "AudioPreviewTo": 89266,
+        "InitialUnlock": false,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 4.0,
+                "Difficulty": "4",
+                "ChartDesigner": "夜幕下的守护者",
+                "NoteCount": 519
+            },
+            {
+                "Rating": 9.4,
+                "Difficulty": "9",
+                "ChartDesigner": "夜幕下的守护者",
+                "NoteCount": 767
+            },
+            {
+                "Rating": 11.9,
+                "Difficulty": "11⁺",
+                "ChartDesigner": "夜幕下的守护者",
+                "NoteCount": 1200
+            },
+            {
+                "Rating": 0,
+                "Difficulty": "狂",
+                "ChartDesigner": "r567as vs. cyxb",
+                "NoteCount": 1555
+            }
+        ]
+    },
+    {
+        "MusicID": 124,
+        "FileName": "endcat",
+        "Title": "星相运轨-The Fake of EndCat-(Badcore Mix)",
+        "Artist": "EndCat-终猫",
+        "CoverPainter": "EndCat-终猫",
+        "BPMRange": "200",
+        "AudioPreviewFrom": 1854,
+        "AudioPreviewTo": 21540,
+        "InitialUnlock": true,
+        "Lockhint": 0,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 0,
+                "Difficulty": "66",
+                "ChartDesigner": "真可怜，又被Special欺负了吧，你应该清楚，只有我才是你的朋友，只有我爱你啊，为什么！为什么要害怕！",
+                "NoteCount": 1764
+            },
+            {
+                "Rating": 0,
+                "Difficulty": "99",
+                "ChartDesigner": "#查询谱师精神状态",
+                "NoteCount": 2750
+            },
+            null,
+            null
+        ]
+    },
+    {
+        "MusicID": 125,
+        "FileName": "nightyard",
+        "Title": "怪逢",
+        "Artist": "Night Yard",
+        "CoverPainter": "老邦",
+        "BPMRange": "134",
+        "AudioPreviewFrom": 86865,
+        "AudioPreviewTo": 101194,
+        "InitialUnlock": false,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 2.0,
+                "Difficulty": "2",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 411
+            },
+            {
+                "Rating": 5.5,
+                "Difficulty": "5",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 760
+            },
+            {
+                "Rating": 10.1,
+                "Difficulty": "10",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 1025
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 126,
+        "FileName": "gateway",
+        "Title": "Bad Gateway",
+        "Artist": "DeBisco",
+        "CoverPainter": "Psonite",
+        "BPMRange": "100",
+        "AudioPreviewFrom": 31299,
+        "AudioPreviewTo": 50500,
+        "InitialUnlock": false,
+        "Lockhint": 2,
+        "Watermark": false,
+        "Difficulties": [
+            {
+                "Rating": 2.5,
+                "Difficulty": "2",
+                "ChartDesigner": "cyxb",
+                "NoteCount": 475
+            },
+            {
+                "Rating": 6.5,
+                "Difficulty": "6",
+                "ChartDesigner": "CWind",
+                "NoteCount": 855
+            },
+            {
+                "Rating": 10.4,
+                "Difficulty": "10",
+                "ChartDesigner": "CWind",
+                "NoteCount": 1404
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 127,
+        "FileName": "eulca",
+        "Title": "EulcRa",
+        "Artist": "Raphiiel",
+        "CoverPainter": "老邦",
+        "BPMRange": "200",
+        "AudioPreviewFrom": 83921,
+        "AudioPreviewTo": 102717,
+        "InitialUnlock": false,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 3.0,
+                "Difficulty": "3",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 440
+            },
+            {
+                "Rating": 7.8,
+                "Difficulty": "7",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 560
+            },
+            {
+                "Rating": 10.9,
+                "Difficulty": "10⁺",
+                "ChartDesigner": "尘云星白 vs. Leadlink",
+                "NoteCount": 995
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 128,
+        "FileName": "sunshine",
+        "Title": "Eternal Sunshine",
+        "Artist": "Essbee",
+        "CoverPainter": "87度空气",
+        "BPMRange": "171",
+        "AudioPreviewFrom": 136895,
+        "AudioPreviewTo": 165304,
+        "InitialUnlock": false,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 2.0,
+                "Difficulty": "2",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 476
+            },
+            {
+                "Rating": 6.0,
+                "Difficulty": "6",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 669
+            },
+            {
+                "Rating": 10.8,
+                "Difficulty": "10⁺",
+                "ChartDesigner": "UyukiChan",
+                "NoteCount": 946
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 129,
+        "FileName": "ieo",
+        "Title": "INFiNiTE ENERZY -Overdoze-",
+        "Artist": "Reku Mochizuki",
+        "CoverPainter": "",
+        "BPMRange": "180",
+        "AudioPreviewFrom": 49451,
+        "AudioPreviewTo": 70784,
+        "InitialUnlock": false,
+        "Lockhint": 2,
+        "Watermark": false,
+        "Difficulties": [
+            {
+                "Rating": 3.0,
+                "Difficulty": "3",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 336
+            },
+            {
+                "Rating": 9.2,
+                "Difficulty": "9",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 739
+            },
+            {
+                "Rating": 11.0,
+                "Difficulty": "11",
+                "ChartDesigner": "-星白 Overdoze-",
+                "NoteCount": 1131
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 130,
+        "FileName": "sky",
+        "Title": "衝天のグラディウス",
+        "Artist": "RyouRyou",
+        "CoverPainter": "老邦",
+        "BPMRange": "200",
+        "AudioPreviewFrom": 21000,
+        "AudioPreviewTo": 40200,
+        "InitialUnlock": false,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 2.0,
+                "Difficulty": "2",
+                "ChartDesigner": "Heavenly White",
+                "NoteCount": 426
+            },
+            {
+                "Rating": 6.5,
+                "Difficulty": "6",
+                "ChartDesigner": "Heavenly White",
+                "NoteCount": 681
+            },
+            {
+                "Rating": 11.2,
+                "Difficulty": "11",
+                "ChartDesigner": "Heavenly White",
+                "NoteCount": 892
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 131,
+        "FileName": "revelation",
+        "Title": "Revelation",
+        "Artist": "tn-shi",
+        "CoverPainter": "TARO_head",
+        "BPMRange": "160~210",
+        "AudioPreviewFrom": 55844,
+        "AudioPreviewTo": 74129,
+        "InitialUnlock": false,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 3.0,
+                "Difficulty": "3",
+                "ChartDesigner": "Initiation",
+                "NoteCount": 369
+            },
+            {
+                "Rating": 9.0,
+                "Difficulty": "9",
+                "ChartDesigner": "Initiation",
+                "NoteCount": 778
+            },
+            {
+                "Rating": 10.6,
+                "Difficulty": "10⁺",
+                "ChartDesigner": "Initiation",
+                "NoteCount": 974
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 132,
+        "FileName": "neon",
+        "Title": "FurukuNeon",
+        "Artist": "INBOX WG",
+        "CoverPainter": "镜璃",
+        "BPMRange": "128",
+        "AudioPreviewFrom": 49451,
+        "AudioPreviewTo": 70784,
+        "InitialUnlock": false,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 2.0,
+                "Difficulty": "2",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 254
+            },
+            {
+                "Rating": 6.0,
+                "Difficulty": "6",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 528
+            },
+            {
+                "Rating": 10.9,
+                "Difficulty": "10⁺",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 758
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 133,
+        "FileName": "intelligence",
+        "Title": "Artificial Intelligence",
+        "Artist": "street",
+        "CoverPainter": "",
+        "BPMRange": "175",
+        "AudioPreviewFrom": 132270,
+        "AudioPreviewTo": 156800,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": false,
+        "Difficulties": [
+            {
+                "Rating": 2.0,
+                "Difficulty": "2",
+                "ChartDesigner": "AI星白",
+                "NoteCount": 476
+            },
+            {
+                "Rating": 5.5,
+                "Difficulty": "5",
+                "ChartDesigner": "AI星白",
+                "NoteCount": 788
+            },
+            {
+                "Rating": 9.8,
+                "Difficulty": "9⁺",
+                "ChartDesigner": "AI星白",
+                "NoteCount": 935
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 134,
+        "FileName": "platina",
+        "Title": "Platina",
+        "Artist": "MEMME",
+        "CoverPainter": "",
+        "BPMRange": "120",
+        "AudioPreviewFrom": 50500,
+        "AudioPreviewTo": 77500,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": false,
+        "Difficulties": [
+            {
+                "Rating": 2.0,
+                "Difficulty": "2",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 475
+            },
+            {
+                "Rating": 6.0,
+                "Difficulty": "6",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 609
+            },
+            {
+                "Rating": 10.1,
+                "Difficulty": "10",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 919
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 135,
+        "FileName": "altro",
+        "Title": "Altros",
+        "Artist": "ARForest",
+        "CoverPainter": "",
+        "BPMRange": "195",
+        "AudioPreviewFrom": 45628,
+        "AudioPreviewTo": 65320,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": false,
+        "Difficulties": [
+            {
+                "Rating": 3.0,
+                "Difficulty": "3",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 318
+            },
+            {
+                "Rating": 7.2,
+                "Difficulty": "7",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 569
+            },
+            {
+                "Rating": 11.0,
+                "Difficulty": "11",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 821
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 136,
+        "FileName": "fluorescent",
+        "Title": "Fluorescent Light",
+        "Artist": "Wooden",
+        "CoverPainter": "镜璃",
+        "BPMRange": "207~213",
+        "AudioPreviewFrom": 17441,
+        "AudioPreviewTo": 45267,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 2.5,
+                "Difficulty": "2",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 591
+            },
+            {
+                "Rating": 6.5,
+                "Difficulty": "6",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 949
+            },
+            {
+                "Rating": 10.9,
+                "Difficulty": "10⁺",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 1205
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 137,
+        "FileName": "h",
+        "Title": "HΣmolψsis",
+        "Artist": "P3T",
+        "CoverPainter": "FISHXL",
+        "BPMRange": "230",
+        "AudioPreviewFrom": 111652,
+        "AudioPreviewTo": 128347,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 5.0,
+                "Difficulty": "5",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 503
+            },
+            {
+                "Rating": 9.3,
+                "Difficulty": "9",
+                "ChartDesigner": "uyuki vs. Leadlink",
+                "NoteCount": 736
+            },
+            {
+                "Rating": 11.6,
+                "Difficulty": "11⁺",
+                "ChartDesigner": "P3T斯哈斯哈",
+                "NoteCount": 1336
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 138,
+        "FileName": "rain",
+        "Title": "The Everlasting Rain",
+        "Artist": "AiSS vs. Abit",
+        "CoverPainter": "老邦",
+        "BPMRange": "210~500",
+        "AudioPreviewFrom": 1899,
+        "AudioPreviewTo": 20471,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 4.0,
+                "Difficulty": "4",
+                "ChartDesigner": "cyxb",
+                "NoteCount": 647
+            },
+            {
+                "Rating": 9.7,
+                "Difficulty": "9⁺",
+                "ChartDesigner": "Everlasting cyxb",
+                "NoteCount": 1077
+            },
+            {
+                "Rating": 12.0,
+                "Difficulty": "12",
+                "ChartDesigner": "The EverLasTing cyxb",
+                "NoteCount": 1708
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 139,
+        "FileName": "dark",
+        "Title": "Flame Dark",
+        "Artist": "KIVΛ (feat. Qma)",
+        "CoverPainter": "Dormorque",
+        "BPMRange": "138",
+        "AudioPreviewFrom": 14130,
+        "AudioPreviewTo": 41839,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 3.0,
+                "Difficulty": "3",
+                "ChartDesigner": "星白",
+                "NoteCount": 337
+            },
+            {
+                "Rating": 7.6,
+                "Difficulty": "7",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 499
+            },
+            {
+                "Rating": 10.5,
+                "Difficulty": "10⁺",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 614
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 140,
+        "FileName": "halloween",
+        "Title": "Hello Halloween",
+        "Artist": "PYKAMIA vs 3R2",
+        "CoverPainter": "神奇的鸡蛋纺纱机",
+        "BPMRange": "130",
+        "AudioPreviewFrom": 23176,
+        "AudioPreviewTo": 37946,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 2.5,
+                "Difficulty": "2",
+                "ChartDesigner": "Trick or treat",
+                "NoteCount": 299
+            },
+            {
+                "Rating": 7.0,
+                "Difficulty": "7",
+                "ChartDesigner": "Trick or treat",
+                "NoteCount": 549
+            },
+            {
+                "Rating": 9.9,
+                "Difficulty": "9⁺",
+                "ChartDesigner": "Trick or treat",
+                "NoteCount": 828
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 141,
+        "FileName": "destiny",
+        "Title": "Fantasia Sonata Destiny",
+        "Artist": "PYKAMIA",
+        "CoverPainter": "白米熊",
+        "BPMRange": "180",
+        "AudioPreviewFrom": 17441,
+        "AudioPreviewTo": 45267,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": false,
+        "Difficulties": [
+            {
+                "Rating": 2.5,
+                "Difficulty": "2",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 476
+            },
+            {
+                "Rating": 8.2,
+                "Difficulty": "8",
+                "ChartDesigner": "KevinLin",
+                "NoteCount": 1011
+            },
+            {
+                "Rating": 10.9,
+                "Difficulty": "10⁺",
+                "ChartDesigner": "CWind",
+                "NoteCount": 1356
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 142,
+        "FileName": "idm",
+        "Title": "Infinite Dreamtale",
+        "Artist": "Luna Asuka",
+        "CoverPainter": "",
+        "BPMRange": "195",
+        "AudioPreviewFrom": 19723,
+        "AudioPreviewTo": 39424,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": false,
+        "Difficulties": [
+            {
+                "Rating": 3.0,
+                "Difficulty": "3",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 448
+            },
+            {
+                "Rating": 8.8,
+                "Difficulty": "8",
+                "ChartDesigner": "SnowPainted vs. KevinLin",
+                "NoteCount": 803
+            },
+            {
+                "Rating": 11.3,
+                "Difficulty": "11",
+                "ChartDesigner": "SnowPainted vs. KevinLin",
+                "NoteCount": 1000
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 143,
+        "FileName": "into",
+        "Title": "Into the Depths",
+        "Artist": "ruha",
+        "CoverPainter": "",
+        "BPMRange": "192",
+        "AudioPreviewFrom": 51627,
+        "AudioPreviewTo": 71627,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": false,
+        "Difficulties": [
+            {
+                "Rating": 3.0,
+                "Difficulty": "3",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 428
+            },
+            {
+                "Rating": 6.5,
+                "Difficulty": "6",
+                "ChartDesigner": "KevinLin",
+                "NoteCount": 672
+            },
+            {
+                "Rating": 10.6,
+                "Difficulty": "10⁺",
+                "ChartDesigner": "Into the Yeewo",
+                "NoteCount": 955
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 144,
+        "FileName": "pulsar",
+        "Title": "pulsar",
+        "Artist": "satie",
+        "CoverPainter": "",
+        "BPMRange": "165",
+        "AudioPreviewFrom": 96122,
+        "AudioPreviewTo": 120647,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": false,
+        "Difficulties": [
+            {
+                "Rating": 4.0,
+                "Difficulty": "4",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 323
+            },
+            {
+                "Rating": 7.4,
+                "Difficulty": "7",
+                "ChartDesigner": "KevinLin",
+                "NoteCount": 851
+            },
+            {
+                "Rating": 10.8,
+                "Difficulty": "10⁺",
+                "ChartDesigner": "Leadlink",
+                "NoteCount": 1124
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 145,
+        "FileName": "spy",
+        "Title": "Spy-DR",
+        "Artist": "ZxNX",
+        "CoverPainter": "",
+        "BPMRange": "165",
+        "AudioPreviewFrom": 48667,
+        "AudioPreviewTo": 60303,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": false,
+        "Difficulties": [
+            {
+                "Rating": 2.0,
+                "Difficulty": "2",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 481
+            },
+            {
+                "Rating": 8.2,
+                "Difficulty": "8",
+                "ChartDesigner": "KevinLin",
+                "NoteCount": 1000
+            },
+            {
+                "Rating": 11.0,
+                "Difficulty": "11",
+                "ChartDesigner": "星白-White",
+                "NoteCount": 1171
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 146,
+        "FileName": "te",
+        "Title": "Tactics-Exhaustive",
+        "Artist": "shadow_bling",
+        "CoverPainter": "无色",
+        "BPMRange": "170",
+        "AudioPreviewFrom": 118638,
+        "AudioPreviewTo": 141226,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 2.0,
+                "Difficulty": "2",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 409
+            },
+            {
+                "Rating": 7.8,
+                "Difficulty": "7",
+                "ChartDesigner": "KevinLin",
+                "NoteCount": 688
+            },
+            {
+                "Rating": 10.3,
+                "Difficulty": "10",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 921
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 147,
+        "FileName": "knight",
+        "Title": "心機一轉[白]",
+        "Artist": "Pica",
+        "CoverPainter": "镜璃",
+        "BPMRange": "160",
+        "AudioPreviewFrom": 47130,
+        "AudioPreviewTo": 65879,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 3.0,
+                "Difficulty": "3",
+                "ChartDesigner": "星白[White]",
+                "NoteCount": 330
+            },
+            {
+                "Rating": 8.0,
+                "Difficulty": "8",
+                "ChartDesigner": "KevinLin",
+                "NoteCount": 884
+            },
+            {
+                "Rating": 10.7,
+                "Difficulty": "10⁺",
+                "ChartDesigner": "星白[White]",
+                "NoteCount": 1116
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 148,
+        "FileName": "qualia",
+        "Title": "Qualia",
+        "Artist": "RyouRyou",
+        "CoverPainter": "云熙菌",
+        "BPMRange": "195",
+        "AudioPreviewFrom": 78719,
+        "AudioPreviewTo": 98719,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 2.0,
+                "Difficulty": "2",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 367
+            },
+            {
+                "Rating": 7.4,
+                "Difficulty": "7",
+                "ChartDesigner": "KevinLin",
+                "NoteCount": 698
+            },
+            {
+                "Rating": 10.8,
+                "Difficulty": "10⁺",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 935
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 149,
+        "FileName": "wolves",
+        "Title": "Among Wolves",
+        "Artist": "Iris",
+        "CoverPainter": "as leaDersheep",
+        "BPMRange": "170",
+        "AudioPreviewFrom": 48690,
+        "AudioPreviewTo": 70658,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 2.0,
+                "Difficulty": "2",
+                "ChartDesigner": "披着羊皮的白",
+                "NoteCount": 512
+            },
+            {
+                "Rating": 9.2,
+                "Difficulty": "9",
+                "ChartDesigner": "披着羊皮的白",
+                "NoteCount": 882
+            },
+            {
+                "Rating": 11.3,
+                "Difficulty": "11",
+                "ChartDesigner": "披着羊皮的白",
+                "NoteCount": 1311
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 150,
+        "FileName": "queenwhite",
+        "Title": "エセ交響詩[若き白の女王]",
+        "Artist": "rN",
+        "CoverPainter": "老邦",
+        "BPMRange": "249",
+        "AudioPreviewFrom": 110544,
+        "AudioPreviewTo": 136446,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 3.0,
+                "Difficulty": "3",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 487
+            },
+            {
+                "Rating": 9.6,
+                "Difficulty": "9⁺",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 851
+            },
+            {
+                "Rating": 11.7,
+                "Difficulty": "11⁺",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 1114
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 151,
+        "FileName": "vorpalize",
+        "Title": "VorpΛlize",
+        "Artist": "Reku Mochizuki",
+        "CoverPainter": "Sin.",
+        "BPMRange": "224",
+        "AudioPreviewFrom": 28200,
+        "AudioPreviewTo": 40877,
+        "InitialUnlock": false,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 4.0,
+                "Difficulty": "4",
+                "ChartDesigner": "永夜棋盘",
+                "NoteCount": 441
+            },
+            {
+                "Rating": 9.5,
+                "Difficulty": "9⁺",
+                "ChartDesigner": "尘云星白 vs. 尘云星夜",
+                "NoteCount": 779
+            },
+            {
+                "Rating": 11.7,
+                "Difficulty": "11⁺",
+                "ChartDesigner": "星白 vs. 星夜",
+                "NoteCount": 1136
+            },
+            {
+                "Rating": 0,
+                "Difficulty": "狂",
+                "ChartDesigner": "白 vs. 夜",
+                "NoteCount": 1480
+            }
+        ]
+    },
+    {
+        "MusicID": 152,
+        "FileName": "flower",
+        "Title": "The Last Flower",
+        "Artist": "Hagali feat.國土佳音",
+        "CoverPainter": "秋禾",
+        "BPMRange": "114",
+        "AudioPreviewFrom": 69670,
+        "AudioPreviewTo": 95383,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 1.0,
+                "Difficulty": "1",
+                "ChartDesigner": "The Last Night",
+                "NoteCount": 328
+            },
+            {
+                "Rating": 6.0,
+                "Difficulty": "6",
+                "ChartDesigner": "KevinLin",
+                "NoteCount": 737
+            },
+            {
+                "Rating": 10.3,
+                "Difficulty": "10",
+                "ChartDesigner": "The Last Night",
+                "NoteCount": 1102
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 153,
+        "FileName": "forgetme",
+        "Title": "Forget me not",
+        "Artist": "Arch",
+        "CoverPainter": "Shionty",
+        "BPMRange": "175",
+        "AudioPreviewFrom": 13789,
+        "AudioPreviewTo": 35732,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 3.0,
+                "Difficulty": "3",
+                "ChartDesigner": "尘云星夜",
+                "NoteCount": 406
+            },
+            {
+                "Rating": 7.2,
+                "Difficulty": "7",
+                "ChartDesigner": "KevinLin",
+                "NoteCount": 719
+            },
+            {
+                "Rating": 10.6,
+                "Difficulty": "10⁺",
+                "ChartDesigner": "尘云星夜",
+                "NoteCount": 925
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 154,
+        "FileName": "orphe",
+        "Title": "Orphe",
+        "Artist": "Avans",
+        "CoverPainter": "MARI",
+        "BPMRange": "145",
+        "AudioPreviewFrom": 56275,
+        "AudioPreviewTo": 71172,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 2.0,
+                "Difficulty": "2",
+                "ChartDesigner": "尘云星夜",
+                "NoteCount": 323
+            },
+            {
+                "Rating": 8.6,
+                "Difficulty": "8",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 835
+            },
+            {
+                "Rating": 10.8,
+                "Difficulty": "10⁺",
+                "ChartDesigner": "尘云星夜",
+                "NoteCount": 1098
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 155,
+        "FileName": "wabi",
+        "Title": "つーく・つわんく",
+        "Artist": "WABI",
+        "CoverPainter": "猫鈴杏",
+        "BPMRange": "165",
+        "AudioPreviewFrom": 106266,
+        "AudioPreviewTo": 130630,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 3.0,
+                "Difficulty": "3",
+                "ChartDesigner": "尘云星夜",
+                "NoteCount": 437
+            },
+            {
+                "Rating": 8.2,
+                "Difficulty": "8",
+                "ChartDesigner": "KevinLin",
+                "NoteCount": 1009
+            },
+            {
+                "Rating": 11.1,
+                "Difficulty": "11",
+                "ChartDesigner": "尘云星夜",
+                "NoteCount": 1385
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 156,
+        "FileName": "area",
+        "Title": "Forbidden Area",
+        "Artist": "ADA",
+        "CoverPainter": "恋殇",
+        "BPMRange": "200",
+        "AudioPreviewFrom": 119674,
+        "AudioPreviewTo": 139174,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 3.0,
+                "Difficulty": "3",
+                "ChartDesigner": "尘云星夜",
+                "NoteCount": 508
+            },
+            {
+                "Rating": 9.2,
+                "Difficulty": "9",
+                "ChartDesigner": "KevinLin",
+                "NoteCount": 1081
+            },
+            {
+                "Rating": 11.9,
+                "Difficulty": "11⁺",
+                "ChartDesigner": "尘云星夜",
+                "NoteCount": 1422
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 157,
+        "FileName": "sword",
+        "Title": "十拳剣",
+        "Artist": "5KiLOBYTE vs. Raphiiel",
+        "CoverPainter": "EiSELE feat.TARO",
+        "BPMRange": "191.919 ~ 232.323",
+        "AudioPreviewFrom": 129142,
+        "AudioPreviewTo": 146445,
+        "InitialUnlock": false,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 4.0,
+                "Difficulty": "4",
+                "ChartDesigner": "尘云星夜",
+                "NoteCount": 491
+            },
+            {
+                "Rating": 9.6,
+                "Difficulty": "9⁺",
+                "ChartDesigner": "尘云星夜",
+                "NoteCount": 1008
+            },
+            {
+                "Rating": 11.7,
+                "Difficulty": "11⁺",
+                "ChartDesigner": "尘云星夜",
+                "NoteCount": 1540
+            },
+            {
+                "Rating": 0,
+                "Difficulty": "狂",
+                "ChartDesigner": "噩梦诅咒",
+                "NoteCount": 2099
+            }
+        ]
+    },
+    {
+        "MusicID": 158,
+        "FileName": "dream",
+        "Title": "Dream goes on",
+        "Artist": "Tiny Minim",
+        "CoverPainter": "",
+        "BPMRange": "174",
+        "AudioPreviewFrom": 35282,
+        "AudioPreviewTo": 55282,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": false,
+        "Difficulties": [
+            {
+                "Rating": 1.5,
+                "Difficulty": "1",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 220
+            },
+            {
+                "Rating": 6.0,
+                "Difficulty": "6",
+                "ChartDesigner": "星白",
+                "NoteCount": 405
+            },
+            {
+                "Rating": 9.7,
+                "Difficulty": "9⁺",
+                "ChartDesigner": "尘云星白 vs. SnowPainted",
+                "NoteCount": 645
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 159,
+        "FileName": "weg",
+        "Title": "Weg",
+        "Artist": "yourmythos",
+        "CoverPainter": "",
+        "BPMRange": "188",
+        "AudioPreviewFrom": 25531,
+        "AudioPreviewTo": 41170,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": false,
+        "Difficulties": [
+            {
+                "Rating": 1.0,
+                "Difficulty": "1",
+                "ChartDesigner": "星白",
+                "NoteCount": 396
+            },
+            {
+                "Rating": 7.4,
+                "Difficulty": "7",
+                "ChartDesigner": "KevinLin",
+                "NoteCount": 726
+            },
+            {
+                "Rating": 10.0,
+                "Difficulty": "10",
+                "ChartDesigner": "星白",
+                "NoteCount": 1024
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 160,
+        "FileName": "horizon",
+        "Title": "Horizon Blue",
+        "Artist": "Nothing But Requiem ft.Aikapin & Chiyoko",
+        "CoverPainter": "",
+        "BPMRange": "200",
+        "AudioPreviewFrom": 100940,
+        "AudioPreviewTo": 130339,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": false,
+        "Difficulties": [
+            {
+                "Rating": 3.0,
+                "Difficulty": "3",
+                "ChartDesigner": "StarWhite",
+                "NoteCount": 468
+            },
+            {
+                "Rating": 9.2,
+                "Difficulty": "9",
+                "ChartDesigner": "Nothing But Kcat ft. KevinLin &Opwest",
+                "NoteCount": 866
+            },
+            {
+                "Rating": 11.4,
+                "Difficulty": "11",
+                "ChartDesigner": "StarWhite vs. SnowPainted",
+                "NoteCount": 1283
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 161,
+        "FileName": "frey",
+        "Title": "Frey's Philosophy",
+        "Artist": "Powerless",
+        "CoverPainter": "",
+        "BPMRange": "200",
+        "AudioPreviewFrom": 30790,
+        "AudioPreviewTo": 50479,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": false,
+        "Difficulties": [
+            {
+                "Rating": 3.0,
+                "Difficulty": "3",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 488
+            },
+            {
+                "Rating": 8.4,
+                "Difficulty": "8",
+                "ChartDesigner": "KevinLin",
+                "NoteCount": 810
+            },
+            {
+                "Rating": 11.5,
+                "Difficulty": "11⁺",
+                "ChartDesigner": "尘云星白 vs. SnowPainted",
+                "NoteCount": 1106
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 162,
+        "FileName": "wolvestand",
+        "Title": "Wolves Standing Towards Enemies",
+        "Artist": "Camellia(EDP)",
+        "CoverPainter": "",
+        "BPMRange": "191",
+        "AudioPreviewFrom": 120703,
+        "AudioPreviewTo": 144577,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": false,
+        "Difficulties": [
+            {
+                "Rating": 3.5,
+                "Difficulty": "3",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 529
+            },
+            {
+                "Rating": 9.6,
+                "Difficulty": "9⁺",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 1262
+            },
+            {
+                "Rating": 12.0,
+                "Difficulty": "12",
+                "ChartDesigner": "cyxb with leadlink",
+                "NoteCount": 1719
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 163,
+        "FileName": "2024sp",
+        "Title": "终暮~核磁共振+(SuperBadcore-VeryBad REMIX)",
+        "Artist": "ハリネズミ頭の大魔王 vs StartDoge-始犬",
+        "CoverPainter": "我要把你□□抓走.jpg",
+        "BPMRange": "200",
+        "AudioPreviewFrom": 0,
+        "AudioPreviewTo": 38450,
+        "InitialUnlock": true,
+        "Lockhint": 0,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 0,
+                "Difficulty": "0",
+                "ChartDesigner": "SnowPainted",
+                "NoteCount": 1150
+            },
+            {
+                "Rating": 0,
+                "Difficulty": "-1",
+                "ChartDesigner": "SnowPainted",
+                "NoteCount": 1897
+            },
+            null,
+            null
+        ]
+    },
+    {
+        "MusicID": 164,
+        "FileName": "oil",
+        "Title": "OiL-CAD-OiL",
+        "Artist": "MYUKKE.",
+        "CoverPainter": "银太",
+        "BPMRange": "170",
+        "AudioPreviewFrom": 1580,
+        "AudioPreviewTo": 24000,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 3.0,
+                "Difficulty": "3",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 395
+            },
+            {
+                "Rating": 9.5,
+                "Difficulty": "9⁺",
+                "ChartDesigner": "SnowPainted",
+                "NoteCount": 1080
+            },
+            {
+                "Rating": 11.6,
+                "Difficulty": "11⁺",
+                "ChartDesigner": "SnowPainted",
+                "NoteCount": 1542
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 165,
+        "FileName": "recall",
+        "Title": "recall!!",
+        "Artist": "ariiol",
+        "CoverPainter": "ブウユー",
+        "BPMRange": "130",
+        "AudioPreviewFrom": 29378,
+        "AudioPreviewTo": 61224,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 2.0,
+                "Difficulty": "2",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 293
+            },
+            {
+                "Rating": 6.0,
+                "Difficulty": "6",
+                "ChartDesigner": "KevinLin",
+                "NoteCount": 623
+            },
+            {
+                "Rating": 10.4,
+                "Difficulty": "10",
+                "ChartDesigner": "Leadlink",
+                "NoteCount": 752
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 166,
+        "FileName": "backin",
+        "Title": "Back In The Days",
+        "Artist": "Ardolf",
+        "CoverPainter": "-GeNeSiS-0911",
+        "BPMRange": "130",
+        "AudioPreviewFrom": 45502,
+        "AudioPreviewTo": 60733,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 2.0,
+                "Difficulty": "2",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 400
+            },
+            {
+                "Rating": 8.4,
+                "Difficulty": "8",
+                "ChartDesigner": "KevinLin",
+                "NoteCount": 850
+            },
+            {
+                "Rating": 10.7,
+                "Difficulty": "10⁺",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 1282
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 167,
+        "FileName": "talc",
+        "Title": "Talc",
+        "Artist": "Knighthood",
+        "CoverPainter": "Se-U-Ra",
+        "BPMRange": "195",
+        "AudioPreviewFrom": 78719,
+        "AudioPreviewTo": 98719,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 2.5,
+                "Difficulty": "2",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 464
+            },
+            {
+                "Rating": 9.5,
+                "Difficulty": "9⁺",
+                "ChartDesigner": "KevinLin",
+                "NoteCount": 626
+            },
+            {
+                "Rating": 11.5,
+                "Difficulty": "11⁺",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 975
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 168,
+        "FileName": "elegy",
+        "Title": "Elegy for the Betrayed",
+        "Artist": "tn-shi",
+        "CoverPainter": "银太",
+        "BPMRange": "50~318",
+        "AudioPreviewFrom": 9131,
+        "AudioPreviewTo": 27244,
+        "InitialUnlock": true,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 3.0,
+                "Difficulty": "3",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 516
+            },
+            {
+                "Rating": 9.1,
+                "Difficulty": "9",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 884
+            },
+            {
+                "Rating": 11.4,
+                "Difficulty": "11",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 1389
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 169,
+        "FileName": "savant",
+        "Title": "Savant",
+        "Artist": "Kry.exe",
+        "CoverPainter": "无色",
+        "BPMRange": "200",
+        "AudioPreviewFrom": 88639,
+        "AudioPreviewTo": 107839,
+        "InitialUnlock": false,
+        "Lockhint": 3,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 3.0,
+                "Difficulty": "3",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 360
+            },
+            {
+                "Rating": 8.6,
+                "Difficulty": "8",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 820
+            },
+            {
+                "Rating": 11.3,
+                "Difficulty": "11",
+                "ChartDesigner": "尘云星白 & SnowPainted",
+                "NoteCount": 1228
+            },
+            {
+                "Rating": 0,
+                "Difficulty": "病",
+                "ChartDesigner": "箱庭轮回 (White&KevinLin)",
+                "NoteCount": 1546
+            }
+        ]
+    },
+    {
+        "MusicID": 170,
+        "FileName": "sweet",
+        "Title": "甜涩之梦",
+        "Artist": "YUC'e feat.早稻叽",
+        "CoverPainter": "",
+        "BPMRange": "160",
+        "AudioPreviewFrom": 37500,
+        "AudioPreviewTo": 61500,
+        "InitialUnlock": true,
+        "Lockhint": 3,
+        "Watermark": false,
+        "Difficulties": [
+            {
+                "Rating": 3.0,
+                "Difficulty": "3",
+                "ChartDesigner": "SnowPainted",
+                "NoteCount": 475
+            },
+            {
+                "Rating": 8.8,
+                "Difficulty": "8",
+                "ChartDesigner": "KevinLin",
+                "NoteCount": 617
+            },
+            {
+                "Rating": 10.8,
+                "Difficulty": "10⁺",
+                "ChartDesigner": "SnowPainted",
+                "NoteCount": 918
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 171,
+        "FileName": "fire",
+        "Title": "恶修女——永火熔铸",
+        "Artist": "负离子SYNTHETIC feat.黑泽诺亚NOIR",
+        "CoverPainter": "",
+        "BPMRange": "180",
+        "AudioPreviewFrom": 5333,
+        "AudioPreviewTo": 27000,
+        "InitialUnlock": true,
+        "Lockhint": 3,
+        "Watermark": false,
+        "Difficulties": [
+            {
+                "Rating": 2.0,
+                "Difficulty": "2",
+                "ChartDesigner": "饿星白",
+                "NoteCount": 363
+            },
+            {
+                "Rating": 8.0,
+                "Difficulty": "8",
+                "ChartDesigner": "KevinLin",
+                "NoteCount": 843
+            },
+            {
+                "Rating": 10.8,
+                "Difficulty": "10⁺",
+                "ChartDesigner": "恶星白",
+                "NoteCount": 1173
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 172,
+        "FileName": "stardust",
+        "Title": "STARDUST",
+        "Artist": "Riya",
+        "CoverPainter": "快乐鸽子厂",
+        "BPMRange": "150",
+        "AudioPreviewFrom": 102400,
+        "AudioPreviewTo": 129600,
+        "InitialUnlock": true,
+        "Lockhint": 3,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 3.0,
+                "Difficulty": "3",
+                "ChartDesigner": "cyxb",
+                "NoteCount": 393
+            },
+            {
+                "Rating": 9.5,
+                "Difficulty": "9⁺",
+                "ChartDesigner": "Kcat※",
+                "NoteCount": 762
+            },
+            {
+                "Rating": 11.4,
+                "Difficulty": "11",
+                "ChartDesigner": "InterJoke >>DOCKWITH<< SnowPainted",
+                "NoteCount": 1080
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 173,
+        "FileName": "gl",
+        "Title": "Glamorous",
+        "Artist": "Axya",
+        "CoverPainter": "BLACK★KING",
+        "BPMRange": "155",
+        "AudioPreviewFrom": 93677,
+        "AudioPreviewTo": 121108,
+        "InitialUnlock": false,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 2.0,
+                "Difficulty": "2",
+                "ChartDesigner": "cyxb",
+                "NoteCount": 350
+            },
+            {
+                "Rating": 9.4,
+                "Difficulty": "9",
+                "ChartDesigner": "KevinLin",
+                "NoteCount": 706
+            },
+            {
+                "Rating": 10.9,
+                "Difficulty": "10⁺",
+                "ChartDesigner": "awaaz & SnowPainted",
+                "NoteCount": 1052
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 174,
+        "FileName": "omega",
+        "Title": "Omega",
+        "Artist": "SNKS & Mizku",
+        "CoverPainter": "Sin.",
+        "BPMRange": "140",
+        "AudioPreviewFrom": 42882,
+        "AudioPreviewTo": 63453,
+        "InitialUnlock": false,
+        "Lockhint": 2,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 2.5,
+                "Difficulty": "2",
+                "ChartDesigner": "cyxb",
+                "NoteCount": 393
+            },
+            {
+                "Rating": 7.8,
+                "Difficulty": "7",
+                "ChartDesigner": "轻千轻子Sakuya",
+                "NoteCount": 695
+            },
+            {
+                "Rating": 11.5,
+                "Difficulty": "11⁺",
+                "ChartDesigner": "轻千轻子Sakuya",
+                "NoteCount": 1150
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 175,
+        "FileName": "sonic",
+        "Title": "SONIC SURGE",
+        "Artist": "TSAR feat. aran",
+        "CoverPainter": "",
+        "BPMRange": "170 ~ 190",
+        "AudioPreviewFrom": 48000,
+        "AudioPreviewTo": 70235,
+        "InitialUnlock": true,
+        "Lockhint": 3,
+        "Watermark": false,
+        "Difficulties": [
+            {
+                "Rating": 4.0,
+                "Difficulty": "4",
+                "ChartDesigner": "cyxb",
+                "NoteCount": 467
+            },
+            {
+                "Rating": 10.0,
+                "Difficulty": "10",
+                "ChartDesigner": "KevinLin",
+                "NoteCount": 1093
+            },
+            {
+                "Rating": 11.2,
+                "Difficulty": "11",
+                "ChartDesigner": "Leadlink feat. cyxb",
+                "NoteCount": 1413
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 176,
+        "FileName": "kyjq",
+        "Title": "旷野江清",
+        "Artist": "AiSS",
+        "CoverPainter": "viosgit feat. 恋殇",
+        "BPMRange": "171",
+        "AudioPreviewFrom": 34556,
+        "AudioPreviewTo": 61922,
+        "InitialUnlock": true,
+        "Lockhint": 3,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 3.5,
+                "Difficulty": "3",
+                "ChartDesigner": "cyxb",
+                "NoteCount": 593
+            },
+            {
+                "Rating": 9.3,
+                "Difficulty": "9",
+                "ChartDesigner": "cyxb",
+                "NoteCount": 1175
+            },
+            {
+                "Rating": 11.3,
+                "Difficulty": "11",
+                "ChartDesigner": "雪绘千轻",
+                "NoteCount": 1644
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 177,
+        "FileName": "firework",
+        "Title": "繁焰明空-Fireworks-",
+        "Artist": "EndCat-终猫 vs. ハリネズミ頭の大魔王",
+        "CoverPainter": "",
+        "BPMRange": "215",
+        "AudioPreviewFrom": 101945,
+        "AudioPreviewTo": 119805,
+        "InitialUnlock": true,
+        "Lockhint": 3,
+        "Watermark": false,
+        "Difficulties": [
+            {
+                "Rating": 2.5,
+                "Difficulty": "2",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 512
+            },
+            {
+                "Rating": 9.8,
+                "Difficulty": "9⁺",
+                "ChartDesigner": "cyxb",
+                "NoteCount": 963
+            },
+            {
+                "Rating": 11.4,
+                "Difficulty": "11",
+                "ChartDesigner": "尘云星白-cyxb-",
+                "NoteCount": 1354
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 178,
+        "FileName": "ce",
+        "Title": "Crush Expert",
+        "Artist": "shadow_bling",
+        "CoverPainter": "",
+        "BPMRange": "205",
+        "AudioPreviewFrom": 47930,
+        "AudioPreviewTo": 66661,
+        "InitialUnlock": true,
+        "Lockhint": 3,
+        "Watermark": false,
+        "Difficulties": [
+            {
+                "Rating": 4.5,
+                "Difficulty": "4",
+                "ChartDesigner": "星白",
+                "NoteCount": 564
+            },
+            {
+                "Rating": 10.1,
+                "Difficulty": "10",
+                "ChartDesigner": "星白Crush板栗",
+                "NoteCount": 1134
+            },
+            {
+                "Rating": 11.8,
+                "Difficulty": "11⁺",
+                "ChartDesigner": "星白Crush板栗",
+                "NoteCount": 1530
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 179,
+        "FileName": "blazer",
+        "Title": "cybernetic blazar",
+        "Artist": "ああああ",
+        "CoverPainter": "",
+        "BPMRange": "148 ~ 230",
+        "AudioPreviewFrom": 47930,
+        "AudioPreviewTo": 66661,
+        "InitialUnlock": true,
+        "Lockhint": 3,
+        "Watermark": false,
+        "Difficulties": [
+            {
+                "Rating": 5.0,
+                "Difficulty": "5",
+                "ChartDesigner": "白",
+                "NoteCount": 411
+            },
+            {
+                "Rating": 9.8,
+                "Difficulty": "9⁺",
+                "ChartDesigner": "星白",
+                "NoteCount": 888
+            },
+            {
+                "Rating": 11.6,
+                "Difficulty": "11⁺",
+                "ChartDesigner": "cybernetic white",
+                "NoteCount": 1036
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 180,
+        "FileName": "flows",
+        "Title": "When The Light Flows",
+        "Artist": "Bob Hou#KITSUNE",
+        "CoverPainter": "",
+        "BPMRange": "145",
+        "AudioPreviewFrom": 41743,
+        "AudioPreviewTo": 68225,
+        "InitialUnlock": true,
+        "Lockhint": 3,
+        "Watermark": false,
+        "Difficulties": [
+            {
+                "Rating": 3.0,
+                "Difficulty": "3",
+                "ChartDesigner": "cyxb",
+                "NoteCount": 317
+            },
+            {
+                "Rating": 9.2,
+                "Difficulty": "9",
+                "ChartDesigner": "cyxb",
+                "NoteCount": 601
+            },
+            {
+                "Rating": 10.7,
+                "Difficulty": "10⁺",
+                "ChartDesigner": "cyxb",
+                "NoteCount": 971
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 181,
+        "FileName": "somebody",
+        "Title": "Somebody",
+        "Artist": "Ucixyel",
+        "CoverPainter": "",
+        "BPMRange": "128",
+        "AudioPreviewFrom": 33333,
+        "AudioPreviewTo": 48801,
+        "InitialUnlock": true,
+        "Lockhint": 3,
+        "Watermark": false,
+        "Difficulties": [
+            {
+                "Rating": 1.0,
+                "Difficulty": "1",
+                "ChartDesigner": "cyxb",
+                "NoteCount": 315
+            },
+            {
+                "Rating": 7.0,
+                "Difficulty": "7",
+                "ChartDesigner": "cyxb",
+                "NoteCount": 656
+            },
+            {
+                "Rating": 10.3,
+                "Difficulty": "10",
+                "ChartDesigner": "cyxb vs. snowpainted",
+                "NoteCount": 905
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 182,
+        "FileName": "kirakira",
+        "Title": "Kirakira Noel Story!!",
+        "Artist": "Reku Mochizuki",
+        "CoverPainter": "ナナシ",
+        "BPMRange": "180",
+        "AudioPreviewFrom": 86000,
+        "AudioPreviewTo": 107333,
+        "InitialUnlock": true,
+        "Lockhint": 3,
+        "Watermark": false,
+        "Difficulties": [
+            {
+                "Rating": 2.0,
+                "Difficulty": "2",
+                "ChartDesigner": "cyxb",
+                "NoteCount": 410
+            },
+            {
+                "Rating": 8.4,
+                "Difficulty": "8",
+                "ChartDesigner": "Kevinlin",
+                "NoteCount": 783
+            },
+            {
+                "Rating": 10.8,
+                "Difficulty": "10⁺",
+                "ChartDesigner": "Sakuya & White",
+                "NoteCount": 1074
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 183,
+        "FileName": "mahika",
+        "Title": "Mahika",
+        "Artist": "The Musical Ghost",
+        "CoverPainter": "ブウユー",
+        "BPMRange": "188",
+        "AudioPreviewFrom": 83180,
+        "AudioPreviewTo": 103444,
+        "InitialUnlock": true,
+        "Lockhint": 3,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 2.0,
+                "Difficulty": "2",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 384
+            },
+            {
+                "Rating": 9.5,
+                "Difficulty": "9⁺",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 970
+            },
+            {
+                "Rating": 11.5,
+                "Difficulty": "11⁺",
+                "ChartDesigner": "尘云星白",
+                "NoteCount": 1471
+            },
+            null
+        ]
+    },
+    {
+        "MusicID": 184,
+        "FileName": "hau",
+        "Title": "Hauynite",
+        "Artist": "RYOQUCHA & CS4W",
+        "CoverPainter": "-GeNeSiS-0911",
+        "BPMRange": "175",
+        "AudioPreviewFrom": 34971,
+        "AudioPreviewTo": 57257,
+        "InitialUnlock": true,
+        "Lockhint": 3,
+        "Watermark": true,
+        "Difficulties": [
+            {
+                "Rating": 4.0,
+                "Difficulty": "4",
+                "ChartDesigner": "cyxb",
+                "NoteCount": 546
+            },
+            {
+                "Rating": 10.1,
+                "Difficulty": "10",
+                "ChartDesigner": "cyxb",
+                "NoteCount": 975
+            },
+            {
+                "Rating": 11.8,
+                "Difficulty": "11⁺",
+                "ChartDesigner": "snowpainted",
+                "NoteCount": 1538
+            },
+            null
+        ]
+    }
+]

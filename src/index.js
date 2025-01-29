@@ -2,7 +2,7 @@ import 'dotenv/config'
 import { Client, Collection, GatewayIntentBits } from 'discord.js'
 import * as path from 'path'
 import * as fs from 'fs'
-import { getB30 } from './utils/getB30.js'
+// import { getB30 } from './utils/getB30.js'
 
 const client = new Client({ intents: [GatewayIntentBits.Guilds] })
 client.commands = new Collection()
@@ -33,7 +33,7 @@ for (const file of eventFiles) {
 	}
 }
 
-// client.login()
+client.login()
 
 // getUpdate(process.env.ITCH_APIKEY)
-getB30(JSON.parse(fs.readFileSync('data/player.json', 'utf8')))
+// getB30(JSON.parse(fs.readFileSync('data/player.json', 'utf8')))

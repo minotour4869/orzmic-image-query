@@ -1,10 +1,9 @@
-'use strict'
 import * as fs from 'fs'
 import { registerFont, createCanvas, loadImage } from 'canvas'
 import { execSync } from 'child_process'
 registerFont('miscs/Geometos.ttf', { family: 'Geometos' })
 
-export async function getB30(player_data) {
+export async function getB30(player_data, timestamp, locale) {
 	function rate(chartConstant, noteCount, score, exScore) {
 		function baseRating() {
 			if (score < 700_000) return 0
@@ -41,8 +40,13 @@ export async function getB30(player_data) {
 		if (score < 1_000_000 + noteCount) return 'Z'
 		return 'Orz'
 	}
-
-	const musicDatas = JSON.parse(fs.readFileSync('miscs/MusicDatas.json', 'utf8'))
+	let musicDatas = []
+	try {
+		musicDatas = JSON.parse(fs.readFileSync('.tmp/MusicDatas.json', 'utf8'))
+	} catch (error) {
+		if (error.message) throw new Error('fileNotFound')
+		throw error
+	}
 
 	const canvas = createCanvas(1920, 1080)
 	const ctx = canvas.getContext('2d')
@@ -67,7 +71,7 @@ export async function getB30(player_data) {
 
 			const pos = [this.index%6, Math.floor(this.index/6)]
 			const cvpos = [27 + pos[0]*306 + (pos[0] - 1)*6, 219 + pos[1]*157 + (pos[1] - 1)*7]
-			loadImage(`tmp/${this.music.FileName}_img.png`).then((image) => {
+			loadImage(`.tmp/illustrators/${this.music.FileName}_img.png`).then((image) => {
 				context.drawImage(image,
 					0, 0,
 					image.width, image.height,
@@ -84,19 +88,24 @@ export async function getB30(player_data) {
 
 				context.fillStyle = '#ffffff'
 				context.font = '18px Geometos'
-				context.textBaseline = 'bottom'
+				context.textBaseline = 'alphabetic'
 				context.textAlign = 'left'
 				const truncate = (str) => {
 					if (str.length <= 20) return str
 					return str.substr(0, 17) + '...'
 				}
-				context.fillText(`${truncate(this.music.Title)}`, cvpos[0] + 10, cvpos[1] + 30)
+				context.fillText(`${truncate(this.music.Title)}`, cvpos[0] + 10, cvpos[1] + 25)
 				context.font = '20px Geometos'
-				context.fillText(`${this.chart.Rating.toFixed(1)} > ${this.rating.toFixed(3)}`, cvpos[0] + 10, cvpos[1] + 60)
+				context.fillText(`${this.chart.Rating.toFixed(1)} > ${this.rating.toFixed(3)}`, cvpos[0] + 10, cvpos[1] + 55)
 
 				context.font = '24px Geometos'
 				context.textAlign = 'right'
 				context.fillText(`#${this.index + 1}`, cvpos[0] + 300, cvpos[1] + 30)
+			}).catch((err) => {
+				if (err.message === 'No such file or directory') {
+					throw new Error('fileNotFound')
+				}
+				throw err
 			})
 
 			loadImage(`miscs/Ranks/${this.rank}.png`).then((image) => {
@@ -112,7 +121,7 @@ export async function getB30(player_data) {
 				context.font = '44px Geometos'
 				context.textAlign = 'left'
 				context.textBaseline = 'bottom'
-				context.fillText(this.score.padStart(7, '0').replace(/\B(?=(\d{3})+(?!\d))/g, ","), cvpos[0] + 10, cvpos[1] + 150)
+				context.fillText(this.score.padStart(7, '0').replace(/\B(?=(\d{3})+(?!\d))/g, ","), cvpos[0] + 10, cvpos[1] + 158)
 			})
 			if (this.exScore < 2) {
 				const plus = (this.exScore != 0 ? "SilverPlus" : "GoldPlus")
@@ -127,17 +136,14 @@ export async function getB30(player_data) {
 		}
 	}
 
-	const getAsset = (type, content) => {
-		console.log(`--${type} ${content}`)
-		execSync(`python src/get_data.py miscs/Orzmic3.0.apk --${type} ${content}`, (err, stdout, stderr) => {
-			if (err) throw err
-		})
-	}
-
-	loadImage('miscs/Backgrounds/BG_SpecialNight.png').then((image) => ctx.drawImage(image, 0, 0, 1920, 1080))
+	let bg_file = 'miscs/Backgrounds/BG_'
+	if (timestamp.getHours() >= 6 && timestamp.getHours() < 12) bg_file += 'NormalDay.png'
+	else if (timestamp.getHours() >= 12 && timestamp.getHours() < 18) bg_file += 'SpecialDay.png'
+	else if (timestamp.getHours() >= 18 && timestamp.getHours() < 21) bg_file += 'SpecialNight.png'
+	else bg_file += 'NormalNight.png'
+	loadImage(bg_file).then((image) => ctx.drawImage(image, 0, 0, 1920, 1080))
 	loadImage('miscs/user.png').then((image) => ctx.drawImage(image, 0, 0, 1920, 1080))
-	getAsset('char', `${player_data.CharID} ${player_data.CharSkinID}`)
-	loadImage(`tmp/char_${player_data.CharID}_${player_data.CharSkinID}.png`).then((image) => {
+	loadImage(`.tmp/characters/${player_data.CharID}_${player_data.CharSkinID}.png`).then((image) => {
 		ctx.drawImage(image, 
 			(image.width - image.height)/2, 0,
 			image.height, image.height,
@@ -156,27 +162,36 @@ export async function getB30(player_data) {
 		ctx.fillStyle = 'white'
 		ctx.font = "42px Geometos"
 		ctx.textAlign = 'left'
-		ctx.textBaseline = 'middle'
-		ctx.fillText(player_data.Rat.slice(0, -1), 705, 105)
+		ctx.textBaseline = 'alphabetic'
+		ctx.fillText(player_data.Rat.slice(0, -1), 705, 115)
+		const len = ctx.measureText(player_data.Rat.slice(0, -1))
+		const new_pos = 705 + len.width
+		console.log(new_pos)
 		ctx.fillStyle = '#868686'
 		ctx.font = '20px Geometos'
-		ctx.fillText(player_data.Rat.at(-1), 815, 110)
+		ctx.fillText(player_data.Rat.at(-1), 705 + len.width, 115)
 
 		ctx.fillStyle = 'white'
 		ctx.font = '42px Geometos'
 		ctx.textAlign = 'right'
+		ctx.textBaseline = 'middle'
 		ctx.fillText(player_data.Coin, 1830, 118)
 
-
-	})
+		ctx.fillStyle = '#ffffff8a'
+		ctx.font = '18px Geometos'
+		ctx.textAlign = 'right'
+		ctx.textBaseline = 'bottom'
+		ctx.fillText(timestamp.toLocaleString(locale), 1915, 1075)
+	}).catch((error) => {
+			if (error.message === 'No such file or directory') {
+				throw new Error('fileNotFound')
+			}
+			throw err
+		})
 	for (const [i, data] of player_data.B30Scores.entries()) {
 		let play = new Play(i, data)
 		play.draw(ctx)
 	}
-	// return canvas.toBuffer()
-	const output = fs.createWriteStream('tmp/result.png')
-	const stream = canvas.createPNGStream()
-	const connection = stream.pipe(output)
-	output.on('finish', () => console.log('Exported'))
-	return connection.path
+	console.log('Canvas drawn')
+	return canvas
 }

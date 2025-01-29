@@ -1,13 +1,17 @@
 import { AttachmentBuilder, EmbedBuilder, InteractionContextType, SlashCommandBuilder } from "discord.js";
 import { getB30 } from "../utils/getB30.js";
-import { Image } from 'canvas'
+import { Jimp } from "jimp";
+import jsQR from "jsqr";
+import { got } from 'got'
+import { Image, Canvas } from "canvas";
+
 
 export default {
 	data: new SlashCommandBuilder()
-		.setName('getb30')
+		.setName('get-b30')
 		.setDescription('Get your best 30 plays')
 		.setDescriptionLocalization('vi', "Trả về hình ảnh chứa 30 lần chơi tốt nhất")
-		.setContexts(InteractionContextType.Guild)
+		// .setContexts(InteractionContextType.Guild)
 		.addSubcommand(subcmd => 
 			subcmd
 				.setName('image')
@@ -34,18 +38,28 @@ export default {
 						.setRequired(true))
 		),
 	async execute (interaction) {
-		// console.log(interaction)
-		// await interaction.reply('Pong')
+		await interaction.deferReply()
+		let data = {}
 		if (interaction.options.getSubcommand() === 'data') {
-			await interaction.deferReply()
-			const data = JSON.parse(interaction.options.getString('data'))
-			// const buffer = await getB30(data)
-			// const attachment = new AttachmentBuilder(buffer, { name: 'result.png' })
-			getB30(data)
-			.then(buffer => {
-					interaction.followUp({ files: [{ attachment: buffer} ] }).then()
-					}
-				)
+			data = JSON.parse(interaction.options.getString('data'))
+		} else if (interaction.options.getSubcommand() === 'image') { 
+			const attachment = interaction.options.getAttachment('image')
+			const image = await Jimp.read(attachment.url)
+			// console.log(image.bitmap)
+
+			const code = jsQR(image.bitmap.data, image.bitmap.width, image.bitmap.height)
+			if (!code) {
+				throw new Error('noQRFound')
+			}
+			// console.log(code)
+			data = JSON.parse(code.data)
 		}
-	}
+		try {
+			const canvas = await getB30(data, interaction.createdAt, interaction.locale)
+			const attachment = new AttachmentBuilder(canvas.toBuffer(), { name: 'result.png' })
+			await interaction.editReply({ files: [attachment] }).then()	
+		} catch (err) {
+			throw err
+		}
+}
 }

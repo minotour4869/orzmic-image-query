@@ -2,16 +2,18 @@ import got from 'got'
 import * as fs from 'fs'
 import { createHash } from 'crypto'
 import { SingleBar, Presets } from 'cli-progress'
-import { exec } from 'child_process'
+import { execSync } from 'child_process'
+import 'dotenv/config'
 
-const fileDir = "miscs/Orzmic3.0.apk"
+const API_KEY = process.env.ITCH_APIKEY
+const fileDir = ".tmp/Orzmic3.0.apk"
 const bar = new SingleBar({
 	etaBuffer: 1000,
 	etaAsynchronousUpdate: false,
 	format: '{bar} {percentage}% | ETA: {eta}s | {value}MB / {total}MB'
 }, Presets.shades_classic)
 
-export default function getUpdate(API_KEY) {
+export default function getUpdate() {
 	const itchAPI = got.extend({
 		prefixUrl: 'https://itch.io/api/1/' + API_KEY,
 		responseType: 'json'
@@ -54,11 +56,11 @@ export default function getUpdate(API_KEY) {
 					bar.start(downloadStream.downloadProgress.total)
 				})
 			}
-			exec(`python src/get_data.py ${fileDir} --music`, (err, stdout, stderr) => {
+			execSync(`python src/utils/get_data.py ${fileDir}`, (err, stdout, stderr) => {
 				if (err) throw err
 				console.log(stdout)
 			})
+			console.log('Update completed')
 		})
 	})
-	
 }
