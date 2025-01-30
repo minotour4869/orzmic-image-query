@@ -2,9 +2,8 @@ import { AttachmentBuilder, EmbedBuilder, InteractionContextType, SlashCommandBu
 import { getB30 } from "../utils/getB30.js";
 import { Jimp } from "jimp";
 import jsQR from "jsqr";
-import { got } from 'got'
-import { Image, Canvas } from "canvas";
-
+import { Validator, validate } from "jsonschema";
+import * as fs from 'fs'
 
 export default {
 	data: new SlashCommandBuilder()
@@ -38,7 +37,6 @@ export default {
 						.setRequired(true))
 		),
 	async execute (interaction) {
-		await interaction.deferReply()
 		let data = {}
 		if (interaction.options.getSubcommand() === 'data') {
 			data = JSON.parse(interaction.options.getString('data'))
@@ -49,11 +47,17 @@ export default {
 
 			const code = jsQR(image.bitmap.data, image.bitmap.width, image.bitmap.height)
 			if (!code) {
-				throw new Error('noQRFound')
+				throw new Error('NoQRFound')
 			}
 			// console.log(code)
 			data = JSON.parse(code.data)
 		}
+		const schema = fs.readFileSync('src/utils/b30_schema.json')
+		const validateResult = validate(data, JSON.parse(schema))
+		if (!validateResult.valid) {
+			throw new Error('InvalidInput', {cause: validateResult.errors})
+		}
+		await interaction.deferReply()
 		try {
 			const canvas = await getB30(data, interaction.createdAt, interaction.locale)
 			const attachment = new AttachmentBuilder(canvas.toBuffer(), { name: 'result.png' })

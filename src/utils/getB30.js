@@ -44,7 +44,7 @@ export async function getB30(player_data, timestamp, locale) {
 	try {
 		musicDatas = JSON.parse(fs.readFileSync('.tmp/MusicDatas.json', 'utf8'))
 	} catch (error) {
-		if (error.message) throw new Error('fileNotFound')
+		if (error.message) throw new Error('FileNotFound')
 		throw error
 	}
 
@@ -77,7 +77,7 @@ export async function getB30(player_data, timestamp, locale) {
 					image.width, image.height,
 					cvpos[0], cvpos[1],
 					306, 157)
-				context.fillStyle = '#000000cc'
+				context.fillStyle = '#0000008c'
 				context.beginPath()
 				context.fillRect(cvpos[0], cvpos[1], 306, 157)
 				
@@ -103,7 +103,7 @@ export async function getB30(player_data, timestamp, locale) {
 				context.fillText(`#${this.index + 1}`, cvpos[0] + 300, cvpos[1] + 30)
 			}).catch((err) => {
 				if (err.message === 'No such file or directory') {
-					throw new Error('fileNotFound')
+					throw new Error('FileNotFound')
 				}
 				throw err
 			})
@@ -184,7 +184,7 @@ export async function getB30(player_data, timestamp, locale) {
 		ctx.fillText(timestamp.toLocaleString(locale), 1915, 1075)
 	}).catch((error) => {
 			if (error.message === 'No such file or directory') {
-				throw new Error('fileNotFound')
+				throw new Error('FileNotFound')
 			}
 			throw err
 		})

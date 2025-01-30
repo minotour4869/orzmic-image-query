@@ -1,0 +1,28 @@
+{
+	"id": "b30Data",
+	"type": "object",
+	"properties": {
+		"Ver": {"type": "integer", "minimum": 1},
+		"Name": {"type": "string"},
+		"Coin": {"type": "integer", "minimum": 0},
+		"CharID": {"type": "integer", "exclusiveMinimum": 0, "exclusiveMaximum": 21},
+		"CharSkinID": {"type": "integer", "exclusiveMinimum": 0},
+		"CharUnlock": {"type": "string"},
+		"Rat": {"type": "float", "minimum": 0},
+		"SPScores": {
+			"type": "array",
+			"items": {
+				"type": "string"
+			},
+			"uniqueItems": true
+		},
+		"B30Scores": {
+			"type": "array",
+			"items": {
+				"type": "string"
+			},
+			"uniqueItems": true
+		}
+	},
+	"required": ["Ver", "Name", "Coin", "CharID", "CharSkinID", "CharUnlock", "Rat", "SPScores", "B30Scores"]
+}

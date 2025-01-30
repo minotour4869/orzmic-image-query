@@ -21,7 +21,7 @@ export default {
 			// await interaction.editReply('Game\'s data updated, you can use the bot normal now')
 			
 		} else {
-			throw new Error('noPermission')
+			throw new Error('NoPermission')
 		}
 	}
 }

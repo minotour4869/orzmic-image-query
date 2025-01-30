@@ -16,18 +16,19 @@ export default {
 			await command.execute(interaction)
 		} catch (error) {
 			// console.error(error)
+			// console.log(error.cause[0])
 			let errMessage = ''
 			switch (error.message) {
-				case 'noPermission':
+				case 'NoPermission':
 					errMessage = 'You don\'t have permission to use this command'
 					break
-				case 'invalidInput':
-					errMessage = 'Invalid input'
+				case 'InvalidInput':
+					errMessage = `Invalid input: ${error.cause[0].message}`
 					break
-				case 'noQRFound':
+				case 'NoQRFound':
 					errMessage = 'No QR Found! Make use your QR is visible for me to read'
 					break
-				case 'fileNotFound':
+				case 'FileNotFound':
 					errMessage = 'File not found, either by game\'s data isn\'t the latest or invalid json input'
 					break
 				default:
