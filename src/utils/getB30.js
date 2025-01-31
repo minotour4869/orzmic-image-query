@@ -1,7 +1,7 @@
 import * as fs from 'fs'
 import { registerFont, createCanvas, loadImage } from 'canvas'
-import { execSync } from 'child_process'
 registerFont('miscs/Geometos.ttf', { family: 'Geometos' })
+registerFont('miscs/NotoSansJP-SemiBold.ttf', { family: 'Noto Sans JP Semi Bold' })
 
 export async function getB30(player_data, timestamp, locale) {
 	function rate(chartConstant, noteCount, score, exScore) {
@@ -93,7 +93,10 @@ export async function getB30(player_data, timestamp, locale) {
 					if (str.length <= 20) return str
 					return str.substr(0, 17) + '...'
 				}
-				context.fillText(`${truncate(this.music.Title)}`, cvpos[0] + 10, cvpos[1] + 25)
+				const title = truncate(this.music.Title)
+				const rForeign = /[\u3040-\u30ff\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff\uff66-\uff9f]/
+				if (title.match(rForeign)) context.font = '18px "Noto Sans JP Semi Bold"'
+				context.fillText(`${title}`, cvpos[0] + 10, cvpos[1] + 25)
 				context.font = '20px Geometos'
 				context.fillText(`${this.chart.Rating.toFixed(1)} > ${this.rating.toFixed(3)}`, cvpos[0] + 10, cvpos[1] + 55)
 
