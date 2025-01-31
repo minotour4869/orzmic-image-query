@@ -63,7 +63,7 @@ export default async function getUpdate() {
 		.catch(rejects)
 	})
 	await downloadFile()
-	execSync(`python src/utils/get_data.py ${fileDir}`, (err, stdout, stderr) => {
+	exec(`python src/utils/get_data.py ${fileDir}`, (err, stdout, stderr) => {
 			if (err) throw err
 			console.log(stdout)
 	})

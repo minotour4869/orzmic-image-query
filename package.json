@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "source orz/bin/activate && node src/index.js",
     "register": "node src/register.js",
-    "debug": "node src/test.js"
+    "debug": "echo $0 && node src/test.js"
   },
   "author": "Minotour",
   "license": "ISC",

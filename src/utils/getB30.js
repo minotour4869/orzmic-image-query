@@ -58,7 +58,6 @@ export async function getB30(player_data, timestamp, locale) {
 			this.status = play_status
 			this.exScore = exScore
 			this.music = musicDatas.find(x => x.MusicID == musicID)
-			// getAsset('chart', this.music.FileName)
 			this.diff = difficulty
 			this.chart = this.music.Difficulties.at(difficulty)
 			this.index = index
@@ -165,8 +164,6 @@ export async function getB30(player_data, timestamp, locale) {
 		ctx.textBaseline = 'alphabetic'
 		ctx.fillText(player_data.Rat.slice(0, -1), 705, 115)
 		const len = ctx.measureText(player_data.Rat.slice(0, -1))
-		const new_pos = 705 + len.width
-		console.log(new_pos)
 		ctx.fillStyle = '#868686'
 		ctx.font = '20px Geometos'
 		ctx.fillText(player_data.Rat.at(-1), 705 + len.width, 115)
@@ -192,6 +189,5 @@ export async function getB30(player_data, timestamp, locale) {
 		let play = new Play(i, data)
 		play.draw(ctx)
 	}
-	console.log('Canvas drawn')
 	return canvas
 }

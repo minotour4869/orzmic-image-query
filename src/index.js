@@ -4,6 +4,7 @@ import * as path from 'path'
 import * as fs from 'fs'
 // import { getB30 } from './utils/getB30.js'
 
+const musicDatas = JSON.parse(fs.readFileSync('.tmp/MusicDatas.json'))
 const client = new Client({ intents: [GatewayIntentBits.Guilds] })
 client.commands = new Collection()
 
