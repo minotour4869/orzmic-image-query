@@ -59,7 +59,7 @@ export default {
 		}
 		await interaction.deferReply()
 		try {
-			const canvas = await getB30(data, interaction.createdAt, interaction.locale)
+			const canvas = await getB30(data, interaction.createdAt, interaction.locale, interaction.client)
 			const attachment = new AttachmentBuilder(canvas.toBuffer(), { name: 'result.png' })
 			await interaction.editReply({ files: [attachment] }).then()	
 		} catch (err) {
