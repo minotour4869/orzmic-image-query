@@ -141,7 +141,7 @@ export async function getB30(player_data, timestamp, locale, client) {
 	const bg_file = 'miscs/Backgrounds/BG_'
 	const day = (timestamp.getDay() > 0 && timestamp.getDay() < 6) ? 'Normal' : 'Special'
 	const time = (timestamp.getHours() >= 5 && timestamp.getHours() < 18) ? 'Day': 'Night' 
-	loadImage(bg_file + day + time).then((image) => ctx.drawImage(image, 0, 0, 1920, 1080))
+	loadImage(bg_file + day + time + '.png').then((image) => ctx.drawImage(image, 0, 0, 1920, 1080))
 	loadImage('miscs/user.png').then((image) => ctx.drawImage(image, 0, 0, 1920, 1080))
 	loadImage(`.tmp/characters/${player_data.CharID}_${player_data.CharSkinID}.png`).then((image) => {
 		ctx.drawImage(image, 
