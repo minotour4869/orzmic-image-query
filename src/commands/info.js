@@ -1,6 +1,5 @@
-import { SlashCommandBuilder, EmbedBuilder, MessageFlags, AttachmentBuilder, Colors } from "discord.js";
+import { SlashCommandBuilder, EmbedBuilder, MessageFlags, AttachmentBuilder, StringSelectMenuBuilder, StringSelectMenuOptionBuilder, ComponentType, ActionRowBuilder } from "discord.js";
 import { readFileSync } from 'fs'
-import path from "path";
 
 const musicDatas = JSON.parse(readFileSync('.tmp/MusicDatas.json', 'utf-8'))
 const queries = musicDatas.map(music => [music.Title, music.FileName])
@@ -18,7 +17,8 @@ export default {
 				.setRequired(true)),
 	async autocomplete(interaction) {
 		const focusedValue = interaction.options.getFocused()
-		const filtered = queries.filter(query => (query[0].startsWith(focusedValue) || query[1].startsWith(focusedValue)))
+		const regexp = new RegExp(focusedValue, "i")
+		const filtered = queries.filter(query => (query[0].match(regexp) || query[1].match(regexp)))
 		await interaction.respond(
 			filtered.map(query => ({ name: query[0], value: query[1] }))
 		)
@@ -30,30 +30,45 @@ export default {
 			await interaction.reply({ content: `No songs found with name ${query}`, flags: MessageFlags.Ephemeral })
 			return
 		}
-		const song = songs[0]
-		const image = new AttachmentBuilder(`.tmp/illustrators/${song.FileName}_img.png`)
-		const embed = new EmbedBuilder({
-			color: 0xfee75c,
-			title: song.Title,
-			thumbnail: {
-				url: `attachment://${song.FileName}_img.png`
-			},
-			description: `**Artist**: ${song.Artist}
+		await interaction.deferReply()
+		const [embeds, images] = songs.reduce((res, song) => {
+			const image = new AttachmentBuilder(`.tmp/illustrators/${song.FileName}_img.png`)
+			const embed = new EmbedBuilder({
+				color: 0xfee75c,
+				title: song.Title,
+				thumbnail: {
+					url: `attachment://${song.FileName}_img.png`
+				},
+				description: `**Artist**: ${song.Artist}
 **Cover**: ${song.CoverPainter}
 **BPM Range**: ${song.BPMRange}`
+			})
+			const diffs = song.Difficulties
+			const diffIcon = [':blue_square:', ':yellow_square:', ':red_square:', ':black_large_square:']
+			let stringDiff = ''
+			for (const diff in diffs) {
+				if (!diffs[diff]) continue
+				if (diff > 0) stringDiff += ' / '
+				stringDiff += `${diffIcon[diff]} ${diffs[diff].Difficulty}`
+				if (diffs[diff].Rating > 0) stringDiff += ` (${diffs[diff].Rating.toFixed(1)})`
+			}
+			embed.addFields(
+				{
+					name: '**Difficulty**',
+					value: stringDiff
+				},
+				{
+					name: '**Keywords**',
+					value: `${song.Title}, ${song.FileName},...`
+				}
+			)
+			res[0].push(embed)
+			res[1].push(image)
+			return res
+		}, [ [], []])
+		await interaction.editReply({
+			files: images,
+			embeds: embeds
 		})
-		const diffs = song.Difficulties
-		let stringDiff = ''
-		const diff_name = [':blue_square:', ':yellow_square:', ':red_square:', ':black_large_square:']
-		for (const diff in diffs) {
-			if (diffs[diff] === null) continue
-			if (diff > 0) stringDiff += ' / '
-			stringDiff += `**${diff_name[diff]}** ${diffs[diff].Difficulty} (${diffs[diff].Rating})`
-		}
-		embed.addFields({
-			name: '**Difficulties**:',
-			value: stringDiff
-		})
-		await interaction.reply({ files: [image], embeds: [embed] })
 	}
 }

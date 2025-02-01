@@ -1,4 +1,5 @@
 import { Events, MessageFlags } from "discord.js";
+import { signs } from "../utils/signs.js";
 
 export default {
 	name: Events.InteractionCreate,
@@ -7,7 +8,7 @@ export default {
 			const command = interaction.client.commands.get(interaction.commandName)
 
 			if (!command) {
-				console.error(`[!] No command ${interaction.commandName}`)
+				console.error(signs.Error, `No command ${interaction.commandName}`)
 				return
 			}
 
@@ -16,8 +17,6 @@ export default {
 			try {
 				await command.execute(interaction)
 			} catch (error) {
-				// console.error(error)
-				// console.log(error.cause[0])
 				let errMessage = ''
 				switch (error.message) {
 					case 'NoPermission':
@@ -33,7 +32,7 @@ export default {
 						errMessage = 'File not found, either by game\'s data isn\'t the latest or invalid json input'
 						break
 					default:
-						console.error(error)
+						console.error(signs.Error, error.stack)
 						errMessage = 'An unknown error occurred when executing this command'
 				}
 				if (interaction.replied || interaction.deferred) {
@@ -46,14 +45,14 @@ export default {
 			const command = interaction.client.commands.get(interaction.commandName)
 
 			if (!command) {
-				console.error(`[!] No command ${interaction.commandName}`)
+				console.error(signs.Error, `No command ${interaction.commandName}`)
 				return
 			}
 
 			try {
 				await command.autocomplete(interaction)
 			} catch (error) {
-				console.error('[!] ' + error.message)
+				console.error(signs.Error, error.message)
 			}
 		}
 		
