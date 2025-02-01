@@ -2,7 +2,8 @@ import got from 'got'
 import * as fs from 'fs'
 import { createHash } from 'crypto'
 import { SingleBar, Presets } from 'cli-progress'
-import { exec } from 'child_process'
+import { spawnSync } from 'child_process'
+import { signs } from './signs.js'
 import 'dotenv/config'
 
 const API_KEY = process.env.ITCH_APIKEY
@@ -24,10 +25,13 @@ export default async function getUpdate() {
 		.then(res => {
 			const game_info = res.body.uploads[0]
 			fs.readFile(fileDir, (err, data) => {
-				if (!err && createHash('md5').update(data).digest('hex') === game_info.md5_hash) console.log('Already at the latest version')
+				if (!err && createHash('md5').update(data).digest('hex') === game_info.md5_hash) {
+						console.log(signs.Info, 'Already at the latest version')
+						resolve()
+					}
 				else {
 					if (err && err.code != 'ENOENT') throw err
-					console.log(`Downloading the latest version...`)
+					console.log(signs.Info, `Downloading the latest version...`)
 					itchAPI.get(`upload/${game_info.id}/download`)
 				.	then(res => {
 						const downloadStream = got.stream(res.body.url)
@@ -41,16 +45,18 @@ export default async function getUpdate() {
 							bar.update(Math.round(progress.transferred/1048576, 2))
 						})
 						.on('error', (err) => {
-							console.error(`Download failed: ${err.message}`)					
+							console.error(signs.Error, `Download failed: ${err.message}`)					
+							rejects(err)
 						})
 					
 						fileWritterStream
 						.on('error', (err) => {
-							console.error(`Writing file failed: ${err.message}`)
+							console.error(signs.Error, `Writing file failed: ${err.message}`)
+							rejects(err)
 						})
 						.on('finish', () => {
 							bar.stop()
-							console.log('Downloaded')
+							console.log(signs.Info, 'File downloaded')
 							resolve()
 						})
 	
@@ -63,9 +69,6 @@ export default async function getUpdate() {
 		.catch(rejects)
 	})
 	await downloadFile()
-	exec(`python src/utils/get_data.py ${fileDir}`, (err, stdout, stderr) => {
-			if (err) throw err
-			console.log(stdout)
-	})
-	console.log('Update completed')
+	spawnSync('python', ['src/utils/get_data.py', fileDir],  { stdio: 'inherit' })
+	console.log(signs.Info, 'Update completed')
 }

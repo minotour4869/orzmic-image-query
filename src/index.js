@@ -2,9 +2,14 @@ import 'dotenv/config'
 import { Client, Collection, GatewayIntentBits } from 'discord.js'
 import * as path from 'path'
 import * as fs from 'fs'
-// import { getB30 } from './utils/getB30.js'
+import getUpdate from './utils/update.js'
+import { signs } from './utils/signs.js'
 
-const musicDatas = JSON.parse(fs.readFileSync('.tmp/MusicDatas.json'))
+if (!fs.existsSync('.tmp/Orzmic3.0.apk')) {
+	console.log(signs.Info, 'Apk file not found, performing data initilization...')
+	getUpdate()
+}
+
 const client = new Client({ intents: [GatewayIntentBits.Guilds] })
 client.commands = new Collection()
 
