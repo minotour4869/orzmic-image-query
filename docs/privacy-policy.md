@@ -29,7 +29,7 @@ This Privacy Policy describes how the Orzmic Image Query application (hereinafte
 
 ## **Contact Us:**
 
-- If you have any questions about this Privacy Policy, please contact the developer through the contact information provided on the GitHub repository.
+- If you have any questions about this Privacy Policy, please contact the developer through user `minotour4869` on Discord.
 
 # Disclaimer:
 
