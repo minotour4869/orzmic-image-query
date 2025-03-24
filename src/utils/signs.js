@@ -5,7 +5,7 @@ export const signs = {
 }
 
 export const logType = Object.freeze({
-    INFO: {value: 0, icon: ""},
+    INFO: {value: 0, icon: ":information_source:"},
     WARNING: {value: 1, icon: ":warning:"},
     ERROR: {value: 2, icon: ":x:"},
 })
