@@ -18,7 +18,7 @@ export default {
 	async autocomplete(interaction) {
 		const focusedValue = interaction.options.getFocused()
 		const regexp = new RegExp(focusedValue, "i")
-		const filtered = queries.filter(query => (query[0].match(regexp) || query[1].match(regexp)))
+		const filtered = queries.filter(query => (query[0].match(regexp) || query[1].match(regexp))).slice(0, 25);
 		await interaction.respond(
 			filtered.map(query => ({ name: query[0], value: query[1] }))
 		)
