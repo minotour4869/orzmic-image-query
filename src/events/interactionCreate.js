@@ -1,5 +1,6 @@
 import { Events, MessageFlags } from "discord.js";
-import { signs } from "../utils/signs.js";
+import { signs, logType } from "../utils/signs.js";
+import { log } from "../utils/log.js";
 
 export default {
 	name: Events.InteractionCreate,
@@ -9,9 +10,11 @@ export default {
 
 			if (!command) {
 				console.error(signs.Error, `No command ${interaction.commandName}`)
+                await log(interaction, logType.ERROR, `No command ${interaction.commandName}`)
 				return
 			}
 
+            await log(interaction, logType.INFO, `${interaction.user.tag} invoked command ${interaction.commandName}`)
 			console.log(`[i] ${interaction.user.tag} issued command ${interaction.commandName}`)
 
 			try {
@@ -35,6 +38,7 @@ export default {
 						console.error(signs.Error, error.stack)
 						errMessage = 'An unknown error occurred when executing this command'
 				}
+                await log(interaction, logType.ERROR, errMessage)
 				if (interaction.replied || interaction.deferred) {
 					await interaction.followUp({ content: errMessage, flags: MessageFlags.Ephemeral })
 				} else {
@@ -46,6 +50,7 @@ export default {
 
 			if (!command) {
 				console.error(signs.Error, `No command ${interaction.commandName}`)
+                await log(interaction, logType.ERROR, `No command ${interaction.commandName}`)
 				return
 			}
 
@@ -53,6 +58,7 @@ export default {
 				await command.autocomplete(interaction)
 			} catch (error) {
 				console.error(signs.Error, error.message)
+                await log(interaction, logType.ERROR, error.message)
 			}
 		}
 		

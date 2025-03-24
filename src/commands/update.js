@@ -17,9 +17,7 @@ export default {
 		})
 		if (interaction.user.id === '370740237024100353') {
 			await interaction.reply({ content: 'Updating the latest game\'s data, please DO NOT to use the bot as it may not malfunction as normal', flags: MessageFlags.Ephemeral })
-			runUpdate()
-			// await interaction.editReply('Game\'s data updated, you can use the bot normal now')
-			
+			runUpdate()	
 		} else {
 			throw new Error('NoPermission')
 		}
