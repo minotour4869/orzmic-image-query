@@ -1,6 +1,6 @@
 # Terms of Service for Orzmic Image Query
 
-By using the Orzmic Image Query application (hereinafter referred to as "the Application"), you agree to the following terms and conditions:
+By using the Orzmic Image Query application (referred to as "the Application"), you agree to the following terms and conditions:
 
 ## **Acceptance of Terms:**
 
