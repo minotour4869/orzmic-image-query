@@ -5,7 +5,7 @@
 		"Ver": {"type": "integer", "minimum": 1},
 		"Name": {"type": "string"},
 		"Coin": {"type": "integer", "minimum": 0},
-		"CharID": {"type": "integer", "minimum": 0, "maximum": 21},
+		"CharID": {"type": "integer", "minimum": 0, "maximum": 22},
 		"CharSkinID": {"type": "integer", "minimum": 0},
 		"CharUnlock": {"type": "string"},
 		"Rat": {"type": "float", "minimum": 0},
