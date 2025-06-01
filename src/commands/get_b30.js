@@ -5,35 +5,32 @@ import jsQR from "jsqr";
 import { Validator, validate } from "jsonschema";
 import * as fs from 'fs'
 
+const locales = JSON.parse(readFileSync('locale.json', 'utf-8'))
+
 export default {
 	data: new SlashCommandBuilder()
 		.setName('get-b30')
-		.setDescription('Get your best 30 plays')
-		.setDescriptionLocalization('vi', "Trả về hình ảnh chứa 30 lần chơi tốt nhất")
+        .setDescriptionLocalizations(locales.get_b30.description)
 		// .setContexts(InteractionContextType.Guild)
 		.addSubcommand(subcmd => 
 			subcmd
 				.setName('image')
-				.setDescription('Using your QR from "About the BOT"')
-				.setDescriptionLocalization('vi', 'Sử dụng ảnh chụp QR từ "Về BOT"')
+                .setDescriptionLocalizations(locales.get_b30.subcmd.image.description)
 				.addAttachmentOption(option =>
 					option
 						.setName('image')
-						.setDescription('Image file including valid QR')
-						.setDescriptionLocalization('vi', "Hình ảnh có chứa QR hợp lệ")
+                        .setDescriptionLocalizations(locales.get_b30.subcmd.image.options.image)
 						.setRequired(true)
 					)
 		)
 		.addSubcommand(subcmd =>
 			subcmd
 				.setName('data')
-				.setDescription('Using copied data from "About the BOT"')
-				.setDescriptionLocalization('vi', 'Sử dụng thông tin được sao chép từ "Về BOT"')
+                .setDescriptionLocalizations(locales.get_b30.subcmd.data.description)
 				.addStringOption(option =>
 					option
 						.setName('data')
-						.setDescription('JSON data copied')
-						.setDescriptionLocalization('vi', 'Thông tin JSON vừa được sao chép')
+                        .setDescriptionLocalizations(locales.get_b30.subcmd.data.options.data)
 						.setRequired(true))
 		),
 	async execute (interaction) {

@@ -38,12 +38,12 @@ export default {
 						console.error(signs.Error, error.stack)
 						errMessage = 'An unknown error occurred when executing this command'
 				}
-                await log(interaction, logType.ERROR, errMessage)
 				if (interaction.replied || interaction.deferred) {
 					await interaction.followUp({ content: errMessage, flags: MessageFlags.Ephemeral })
 				} else {
 					await interaction.reply({ content: errMessage, flags: MessageFlags.Ephemeral })
 				}
+                await log(interaction, logType.ERROR, errMessage)
 			}
 		} else if (interaction.isAutocomplete()) {
 			const command = interaction.client.commands.get(interaction.commandName)
@@ -61,7 +61,5 @@ export default {
                 await log(interaction, logType.ERROR, error.message)
 			}
 		}
-		
-		
 	}
 }

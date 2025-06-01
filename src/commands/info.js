@@ -2,17 +2,16 @@ import { SlashCommandBuilder, EmbedBuilder, MessageFlags, AttachmentBuilder, Str
 import { readFileSync } from 'fs'
 
 const musicDatas = JSON.parse(readFileSync('.tmp/MusicDatas.json', 'utf-8'))
+const locales = JSON.parse(readFileSync('locale.json', 'utf-8'))
 const queries = musicDatas.map(music => [music.Title, music.FileName])
 
 export default {
 	data: new SlashCommandBuilder()
 		.setName('info')
-		.setDescription('Get the info of a song in the game')
-		.setDescriptionLocalization('vi', 'Lấy thông tin từ một bài hát trong game')
+        .setDescriptionLocalizations(locales.info.description)
 		.addStringOption(option => 
 			option.setName('query')
-				.setDescription('Song title to search for')
-				.setDescriptionLocalization('vi', 'Tên bài hát cần tìm')
+                .setDescriptionLocalizations(locales.info.options.query)
 				.setAutocomplete(true)
 				.setRequired(true)),
 	async autocomplete(interaction) {
@@ -26,12 +25,12 @@ export default {
 	async execute(interaction) {
 		const query = interaction.options.getString('query')
 		const songs = musicDatas.filter(song => song.FileName === query)
-		if (!songs) {
-			await interaction.reply({ content: `No songs found with name ${query}`, flags: MessageFlags.Ephemeral })
+		if (!songs.length) {
+			await interaction.reply({ content: locales.info.execute.no_song_found[interaction.locale], flags: MessageFlags.Ephemeral })
 			return
 		}
 		await interaction.deferReply()
-		const [embeds, images] = songs.reduce((res, song) => {
+		const [info_embeds, info_images] = songs.reduce((res, song) => {
 			const image = new AttachmentBuilder(`.tmp/illustrators/${song.FileName}_img.png`)
 			const embed = new EmbedBuilder({
 				color: 0xfee75c,
@@ -67,8 +66,8 @@ export default {
 			return res
 		}, [ [], []])
 		await interaction.editReply({
-			files: images,
-			embeds: embeds
+			files: info_images,
+			embeds: info_embeds,
 		})
 	}
 }
