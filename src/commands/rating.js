@@ -1,36 +1,41 @@
 import { EmbedBuilder } from "@discordjs/builders";
 import { AttachmentBuilder } from "discord.js";
 import { SlashCommandBuilder, MessageFlags } from "discord.js";
-import { readFile, readFileSync } from "fs";
+import { readFileSync } from "fs";
 
 const musicDatas = JSON.parse(readFileSync('.tmp/MusicDatas.json', 'utf-8'))
-const locales = JSON.parse(readFileSync('locale.json', 'utf-8'))
+const locales = JSON.parse(readFileSync('src/locales/commands.json', 'utf-8'))
 const queries = musicDatas.filter(song => song.Difficulties[0].Rating > 0).map(song => [song.Title, song.FileName])
 
 export default {
     data: new SlashCommandBuilder()
         .setName('rating')
+	.setDescription(locales.rating.description.EnglishUS)
         .setDescriptionLocalizations(locales.rating.description)
         .addStringOption(option =>
             option.setName('query')
+		.setDescription(locales.rating.options.query.EnglishUS)
                 .setDescriptionLocalizations(locales.rating.options.query)
                 .setAutocomplete(true)
                 .setRequired(true))
         .addIntegerOption(option =>
             option.setName('difficulty')
+		.setDescription(locales.rating.options.difficulty.EnglishUS)
                 .setDescriptionLocalizations(locales.rating.options.difficulty)
                 .setRequired(true)
                 .addChoices(
-                    { name: ':blue_square: EZ', value: 0 },
-                    { name: ':yellow_square: NM', value: 1 },
-                    { name: ':red_square: HD', value: 2 }))
+                    { name: 'EZ', value: 0 },
+                    { name: 'NM', value: 1 },
+                    { name: 'HD', value: 2 }))
         .addIntegerOption(option =>
             option.setName('score')
+		.setDescription(locales.rating.options.score.EnglishUS)
                 .setDescriptionLocalizations(locales.rating.options.score)
                 .setRequired(true)
                 .setMinValue(0))
         .addIntegerOption(option =>
             option.setName('ex_score')
+		.setDescription(locales.rating.options.ex_score.EnglishUS)
                 .setDescriptionLocalizations(locales.rating.options.ex_score)
                 .setRequired(true)
                 .addChoices(
@@ -103,7 +108,7 @@ export default {
 	    }
         await interaction.deferReply()
         
-        const [song_embeds, song_images] = songs.reduce((res, song) => {
+        const [score_embeds, score_images] = songs.reduce((res, song) => {
             const diff = song.Difficulties[difficulty]
             const embed_colors = [0x81defd, 0xffdf80, 0xfe7e7d]
             const diff_name = ['EZ', 'NM', 'HD']
@@ -111,24 +116,22 @@ export default {
             const embed = new EmbedBuilder({
                 color: embed_colors[difficulty],
                 title: song.Title,
-                thumbnail: {
-                    url: `attachment://${song.FileName}_img.png}`
-                },
                 description: `**Difficulty**: ${diff_name[difficulty]} ${diff.Difficulty}`
             })
+		.setThumbnail(`attachment://${song.FileName}_img.png`)
             embed.addFields(
                 {
                     name: '**Score**',
-                    value: score
+                    value: `${score.toString().padStart(7, '0').replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`
                 },
                 {
                     name: '**Rank**',
-                    value: rank(noteCount, score) + '+'.repeat(2 - exScore),
+                    value: `${rank(noteCount, score)}${'+'.repeat(2 - exScore)}`,
                     inline: true
                 },
                 {
                     name: '**Rating**',
-                    value: `${diff.Rating.toFixed(1)} >> ${rate(diff.Rating, noteCount, score, exScore).toFixed(3)}`
+                    value: `${diff.Rating.toFixed(1)} >> ${rate(diff.Rating, noteCount, score, exScore)}`
                 }
             )
             res[0].push(embed)
@@ -136,8 +139,8 @@ export default {
             return res
         }, [ [], [] ])
         await interaction.editReply({
-            files: score_images,
-            embeds: score_embeds
+            embeds: score_embeds,
+	    files: score_images
         })
     }
 }

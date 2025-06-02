@@ -1,48 +1,48 @@
 {
     "info": {
         "description": {
-            "en-US": "Get the info of a song in the game",
+            "EnglishUS": "Get the info of a song in the game",
             "vi": "Lấy thông tin từ một bài hát trong game"
         },
         "options": {
             "query": {
-                "en-US": "Song title to search",
+                "EnglishUS": "Song title to search",
                 "vi": "Tên bài hát cần tìm"
             }
         },
         "execute": {
             "noSongFound": {
-                "en-US": "No song found with query {0}",
+                "EnglishUS": "No song found with query {0}",
                 "vi": "Không bài nào được tìm thấy với từ khóa {0}"
             }
         }
     },
-    "getB30": {
+    "get_b30": {
         "description": {
-            "en-US": "Get the picture of your best 30 plays",
+            "EnglishUS": "Get the picture of your best 30 plays",
             "vi": "Lấy hình ảnh chứa 30 điểm tốt nhất của bạn"
         },
         "subcmds": {
             "image": {
                 "description": {
-                    "en-US": "Using image including the QR from \"About the BOT\"",
+                    "EnglishUS": "Using image including the QR from \"About the BOT\"",
                     "vi": "Sử dụng hình ảnh chứa QR trong \"Về BOT\""
                 },
                 "options": {
                     "image": {
-                        "en-US": "The image including valid QR",
+                        "EnglishUS": "The image including valid QR",
                         "vi": "Hình ảnh có chứa QR hợp lệ"
                     }
                 }
             },
             "data": {
                 "description": {
-                    "en-US": "Using data copied from \"About the BOT\"",
+                    "EnglishUS": "Using data copied from \"About the BOT\"",
                     "vi": "Sử dụng dữ liệu được sao chép từ \"Về BOT\""
                 },
                 "options": {
                     "data": {
-                        "en-US": "JSON data copied",
+                        "EnglishUS": "JSON data copied",
                         "vi": "Dữ liệu JSON được sao chép"
                     }
                 }
@@ -51,28 +51,28 @@
     },
     "rating": {
         "description": {
-            "en-US": "Provide play info of a given score on a chart"
+            "EnglishUS": "Provide play info of a given score on a chart"
         },
         "options": {
             "query": {
-                "en-US": "Song title to search"
+                "EnglishUS": "Song title to search"
             },
             "difficulty": {
-                "en-US": "Difficulty of the chart"
+                "EnglishUS": "Difficulty of the chart"
             },
             "score": {
-                "en-US": "Score you acquired for the chart"
+                "EnglishUS": "Score you acquired for the chart"
             },
             "ex_score": {
-                "en-US": "Extra plus score you acquired"
+                "EnglishUS": "Extra plus score you acquired"
             }
         },
         "execute": {
             "noSongFound": {
-                "en-US": "No song found with query {0}"
+                "EnglishUS": "No song found with query {0}"
             },
             "invalidScore": {
-                "en-US": "Your score should be maximum {0}, but you entered {1}"
+                "EnglishUS": "Your score should be maximum {0}, but you EnglishUStered {1}"
             }
         }
     }

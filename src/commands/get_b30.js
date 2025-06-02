@@ -5,32 +5,37 @@ import jsQR from "jsqr";
 import { Validator, validate } from "jsonschema";
 import * as fs from 'fs'
 
-const locales = JSON.parse(readFileSync('locale.json', 'utf-8'))
+const locales = JSON.parse(fs.readFileSync('src/locales/commands.json', 'utf-8'))
 
 export default {
 	data: new SlashCommandBuilder()
 		.setName('get-b30')
-        .setDescriptionLocalizations(locales.get_b30.description)
+		.setDescription(locales.get_b30.description.EnglishUS)
+        	.setDescriptionLocalizations(locales.get_b30.description)
 		// .setContexts(InteractionContextType.Guild)
 		.addSubcommand(subcmd => 
 			subcmd
 				.setName('image')
-                .setDescriptionLocalizations(locales.get_b30.subcmd.image.description)
+				.setDescription(locales.get_b30.subcmds.image.description.EnglishUS)
+                		.setDescriptionLocalizations(locales.get_b30.subcmds.image.description)
 				.addAttachmentOption(option =>
 					option
 						.setName('image')
-                        .setDescriptionLocalizations(locales.get_b30.subcmd.image.options.image)
+						.setDescription(locales.get_b30.subcmds.image.options.image.EnglishUS)
+                        			.setDescriptionLocalizations(locales.get_b30.subcmds.image.options.image)
 						.setRequired(true)
 					)
 		)
 		.addSubcommand(subcmd =>
 			subcmd
 				.setName('data')
-                .setDescriptionLocalizations(locales.get_b30.subcmd.data.description)
+				.setDescription(locales.get_b30.subcmds.data.description.EnglishUS)
+                .setDescriptionLocalizations(locales.get_b30.subcmds.data.description)
 				.addStringOption(option =>
 					option
 						.setName('data')
-                        .setDescriptionLocalizations(locales.get_b30.subcmd.data.options.data)
+						.setDescription(locales.get_b30.subcmds.data.options.data.EnglishUS)
+                        .setDescriptionLocalizations(locales.get_b30.subcmds.data.options.data)
 						.setRequired(true))
 		),
 	async execute (interaction) {
@@ -62,5 +67,5 @@ export default {
 		} catch (err) {
 			throw err
 		}
-}
+	}
 }

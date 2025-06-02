@@ -2,15 +2,17 @@ import { SlashCommandBuilder, EmbedBuilder, MessageFlags, AttachmentBuilder, Str
 import { readFileSync } from 'fs'
 
 const musicDatas = JSON.parse(readFileSync('.tmp/MusicDatas.json', 'utf-8'))
-const locales = JSON.parse(readFileSync('locale.json', 'utf-8'))
+const locales = JSON.parse(readFileSync('src/locales/commands.json', 'utf-8'))
 const queries = musicDatas.map(music => [music.Title, music.FileName])
 
 export default {
 	data: new SlashCommandBuilder()
 		.setName('info')
+		.setDescription(locales.info.description.EnglishUS)
         .setDescriptionLocalizations(locales.info.description)
 		.addStringOption(option => 
 			option.setName('query')
+				.setDescription(locales.info.options.query.EnglishUS)
                 .setDescriptionLocalizations(locales.info.options.query)
 				.setAutocomplete(true)
 				.setRequired(true)),
