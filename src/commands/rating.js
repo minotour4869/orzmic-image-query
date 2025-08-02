@@ -67,18 +67,20 @@ export default {
         if (score > 1_000_000 + noteCount) {
             await interaction.reply({ content: locales.rating.execute.invalid_score[interaction.locale].replace('{0}', 1_000_000 + noteCount).replace('{1}', score), flags: MessageFlags.Ephemeral })
             return
-        }
-        
+        } 
+
         function rate(chartConstant, noteCount, score, exScore) {
 		    function baseRating() {
+                // new formula, shoutout to Sixi
+                // https://mzh.moegirl.org.cn/Orzmic#Rating.E8.AE.A1.E7.AE.97.E6.9C.BA.E5.88.B6
 			    if (score < 700_000) return 0
 			    if (score < 900_000) 
 				    return (chartConstant < 2 ? 
 					    chartConstant*((score - 700_000)/200_000) :
-    					chartConstant - 2.0 + ((score - 700_000)/100_000)
-	    			)
-		    	if (score < 950_000)
-			    	return chartConstant + ((score - 900_000)/125_000)
+					    chartConstant - 2.0 + ((score - 700_000)/100_000)
+				    )
+			    if (score < 950_000)
+				    return chartConstant + ((score - 900_000)/125_000)
     			if (score < 980_000)
 	    			return chartConstant + 0.4 + ((score - 950_000)/50_000)
 		    	if (score < 1_000_000)
@@ -88,9 +90,11 @@ export default {
 		    	if (score < 1_000_000 + noteCount)
 			    	return chartConstant + 2.1
     			return chartConstant + 2.2
-	        }
-		    if (exScore == 0) return (Math.ceil((baseRating() + 0.10)*20)/20).toFixed(3)
-		    if (exScore == 1) return (Math.ceil((baseRating() + 0.05)*50)/50).toFixed(3)
+	    	}
+		    if (exScore == 0) 
+                return baseRating() + (score < 1_000_000 ? 0.05 : 0.10)
+    		if (exScore == 1) 
+                return baseRating() + (score < 1_000_000 ? 0.02 : 0.04)
 		    return baseRating()
 	    }
 
@@ -131,7 +135,7 @@ export default {
                 },
                 {
                     name: '**Rating**',
-                    value: `${diff.Rating.toFixed(1)} >> ${rate(diff.Rating, noteCount, score, exScore)}`
+                    value: `${diff.Rating.toFixed(1)} >> ${Math.round(1000*rate(diff.Rating, noteCount, score, exScore))/1000}`
                 }
             )
             res[0].push(embed)

@@ -6,6 +6,8 @@ registerFont('miscs/NotoSansJP-SemiBold.ttf', { family: 'Noto Sans JP Semi Bold'
 export async function getB30(player_data, timestamp, locale, client) {
 	function rate(chartConstant, noteCount, score, exScore) {
 		function baseRating() {
+            // new formula, shoutout to Sixi
+            // https://mzh.moegirl.org.cn/Orzmic#Rating.E8.AE.A1.E7.AE.97.E6.9C.BA.E5.88.B6
 			if (score < 700_000) return 0
 			if (score < 900_000) 
 				return (chartConstant < 2 ? 
@@ -24,8 +26,10 @@ export async function getB30(player_data, timestamp, locale, client) {
 				return chartConstant + 2.1
 			return chartConstant + 2.2
 		}
-		if (exScore == 0) return (Math.ceil((baseRating() + 0.10)*20)/20).toFixed(3)
-		if (exScore == 1) return (Math.ceil((baseRating() + 0.05)*50)/50).toFixed(3)
+		if (exScore == 0) 
+            return baseRating() + (score < 1_000_000 ? 0.05 : 0.10)
+		if (exScore == 1) 
+            return baseRating() + (score < 1_000_000 ? 0.02 : 0.04)
 		return baseRating()
 	}
 	function rank(noteCount, score) {
@@ -62,7 +66,7 @@ export async function getB30(player_data, timestamp, locale, client) {
 			this.chart = this.music.Difficulties.at(difficulty)
 			this.index = index
 			this.rank = rank(parseInt(this.chart.NoteCount), parseInt(this.score))
-			this.rating = rate(parseFloat(this.chart.Rating), parseInt(this.chart.NoteCount), parseInt(this.score), this.chart.exScore)
+			this.rating = Math.floor(1000*rate(parseFloat(this.chart.Rating), parseInt(this.chart.NoteCount), parseInt(this.score), this.chart.exScore))/1000
 		}
 		
 		// 306, 157, start from 27, 219
