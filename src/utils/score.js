@@ -1,24 +1,28 @@
+import Decimal from "decimal.js"
+
 export function rate(chartConstant, noteCount, score, exScore) {
     function baseRating() {
         // new formula, shoutout to Sixi
         // https://mzh.moegirl.org.cn/Orzmic#Rating.E8.AE.A1.E7.AE.97.E6.9C.BA.E5.88.B6
+        // using external library because i'm tired of dealing with precision error
+        let mod = 0
         if (score < 700_000) return 0
         if (score < 900_000) 
-            return (chartConstant < 2 ? 
-                chartConstant*((score - 700_000)/200_000) :
-                chartConstant - 2.0 + ((score - 700_000)/100_000)
-            )
+            mod = 2.0*((score - 900_000)/200_000)
         if (score < 950_000)
-            return chartConstant + ((score - 900_000)/125_000)
+            mod = (score - 900_000)/125_000
         if (score < 980_000)
-            return chartConstant + 0.4 + ((score - 950_000)/50_000)
+            mod = 0.4 + ((score - 950_000)/50_000)
         if (score < 1_000_000)
-            return chartConstant + 1.0 + ((score - 980_000)/20_000)
+            mod = 1.0 + ((score - 980_000)/20_000)
         if (score === 1_000_000)
-            return chartConstant + 2.0
+            mod = 2.0
         if (score < 1_000_000 + noteCount)
-            return chartConstant + 2.1
-        return chartConstant + 2.2
+            mod = 2.1
+        else
+            mod = 2.2
+
+        return Decimal.max((new Decimal(chartConstant)).add(mod), 0).toNumber()
     }
 
     // dealing with floating point error issue
