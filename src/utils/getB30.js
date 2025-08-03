@@ -26,11 +26,19 @@ export async function getB30(player_data, timestamp, locale, client) {
 				return chartConstant + 2.1
 			return chartConstant + 2.2
 		}
-		if (exScore == 0) 
-            return baseRating() + (score < 1_000_000 ? 0.05 : 0.10)
+
+        // dealing with floating point error issue
+        let modifier = 0
+        let anti_modifier = 1
+
+		if (exScore == 0)
+            modifier = score < 1_000_000 ? 0.05 : 0.10
+            anti_modifier = 20
 		if (exScore == 1) 
-            return baseRating() + (score < 1_000_000 ? 0.02 : 0.04)
-		return baseRating()
+            modifier = score < 1_000_000 ? 0.02 : 0.04
+            anti_modifier = 50
+		
+        return Math.ceil((baseRating() + modifier)*anti_modifier)/anti_modifier
 	}
 	function rank(noteCount, score) {
 		if (score < 800_000) return 'F'
