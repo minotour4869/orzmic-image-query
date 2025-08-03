@@ -32,7 +32,7 @@ export function rate(chartConstant, noteCount, score, exScore) {
         modifier = score < 1_000_000 ? 0.02 : 0.04
         anti_modifier = 50
     
-    return Math.ceil((baseRating() + modifier)*anti_modifier)/anti_modifier
+    return ((baseRating() + modifier)*anti_modifier)/anti_modifier
 }
 
 export function rank(noteCount, score) {
