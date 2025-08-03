@@ -2,6 +2,7 @@ import { EmbedBuilder } from "@discordjs/builders";
 import { AttachmentBuilder } from "discord.js";
 import { SlashCommandBuilder, MessageFlags } from "discord.js";
 import { readFileSync } from "fs";
+import { rate, rank } from '../utils/score.js'
 
 const musicDatas = JSON.parse(readFileSync('.tmp/MusicDatas.json', 'utf-8'))
 const locales = JSON.parse(readFileSync('src/locales/commands.json', 'utf-8'))
@@ -69,47 +70,6 @@ export default {
             return
         } 
 
-        function rate(chartConstant, noteCount, score, exScore) {
-		    function baseRating() {
-                // new formula, shoutout to Sixi
-                // https://mzh.moegirl.org.cn/Orzmic#Rating.E8.AE.A1.E7.AE.97.E6.9C.BA.E5.88.B6
-			    if (score < 700_000) return 0
-			    if (score < 900_000) 
-				    return (chartConstant < 2 ? 
-					    chartConstant*((score - 700_000)/200_000) :
-					    chartConstant - 2.0 + ((score - 700_000)/100_000)
-				    )
-			    if (score < 950_000)
-				    return chartConstant + ((score - 900_000)/125_000)
-    			if (score < 980_000)
-	    			return chartConstant + 0.4 + ((score - 950_000)/50_000)
-		    	if (score < 1_000_000)
-			    	return chartConstant + 1.0 + ((score - 980_000)/20_000)
-    			if (score === 1_000_000)
-	    			return chartConstant + 2.0
-		    	if (score < 1_000_000 + noteCount)
-			    	return chartConstant + 2.1
-    			return chartConstant + 2.2
-	    	}
-		    if (exScore == 0) 
-                return baseRating() + (score < 1_000_000 ? 0.05 : 0.10)
-    		if (exScore == 1) 
-                return baseRating() + (score < 1_000_000 ? 0.02 : 0.04)
-		    return baseRating()
-	    }
-
-	    function rank(noteCount, score) {
-		    if (score < 800_000) return 'F'
-		    if (score < 850_000) return 'D'
-		    if (score < 900_000) return 'C'
-		    if (score < 950_000) return 'B'
-		    if (score < 980_000) return 'A'
-		    if (score < 1_000_000) return 'S'
-		    if (score === 1_000_000) return 'O'
-		    if (score < 1_000_000 + noteCount*0.8) return 'R'
-		    if (score < 1_000_000 + noteCount) return 'Z'
-		    return 'ORZ'
-	    }
         await interaction.deferReply()
         
         const [score_embeds, score_images] = songs.reduce((res, song) => {
@@ -135,7 +95,7 @@ export default {
                 },
                 {
                     name: '**Rating**',
-                    value: `${diff.Rating.toFixed(1)} >> ${Math.round(1000*rate(diff.Rating, noteCount, score, exScore))/1000}`
+                    value: `${diff.Rating.toFixed(1)} >> ${Math.floor(1000*rate(diff.Rating, noteCount, score, exScore))/1000}`
                 }
             )
             res[0].push(embed)
