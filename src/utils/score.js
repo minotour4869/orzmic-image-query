@@ -25,18 +25,14 @@ export function rate(chartConstant, noteCount, score, exScore) {
         return Math.max(chartConstant + mod, 0)
     }
 
-    // dealing with floating point error issue
-    let modifier = 0
-    let anti_modifier = 1
+    let modifier = 0.0
 
     if (exScore == 0)
-        modifier = score < 1_000_000 ? 0.05 : 0.10
-        anti_modifier = 20
+        modifier = 0.05 * (1 + (score >= 1_000_000))
     if (exScore == 1) 
-        modifier = score < 1_000_000 ? 0.02 : 0.04
-        anti_modifier = 50
+        modifier = 0.02 * (1 + (score >= 1_000_000))
     
-    return ((baseRating() + modifier)*anti_modifier)/anti_modifier
+    return baseRating() + modifier
 }
 
 export function rank(noteCount, score) {
