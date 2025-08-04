@@ -27,7 +27,7 @@ export async function getB30(player_data, timestamp, locale, client) {
 			this.chart = this.music.Difficulties.at(difficulty)
 			this.index = index
 			this.rank = rank(parseInt(this.chart.NoteCount), parseInt(this.score))
-			this.rating = Math.floor(1000*rate(parseFloat(this.chart.Rating), parseInt(this.chart.NoteCount), parseInt(this.score), this.chart.exScore))/1000
+			this.rating = rate(this.chart.Rating, this.chart.NoteCount, parseInt(this.score), exScore)
 		}
 		
 		// 306, 157, start from 27, 219
