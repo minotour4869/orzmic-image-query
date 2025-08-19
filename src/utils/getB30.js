@@ -173,8 +173,8 @@ export async function getB30(player_data, timestamp, locale, client) {
     const course_name = [["LV.1", "9-9+"], ["LV.2", "10-10+"], ["LV.3", "11-12"], ["LV.SP", "SP"], ["LV..", "1-12"]]
     const progression = [
         [0, 'white'],
-        [300, 'blue'],
-        [500, 'purple'],
+        [300, '#55acee'],
+        [500, '#aa8ed6'],
         [800, 'yellow'],
         [1000, '#ffd700'],
         [3000, '#ff8c00'],
@@ -221,8 +221,8 @@ export async function getB30(player_data, timestamp, locale, client) {
             ex_ctx.font = '64px Geometos'
             ex_ctx.textBaseline = 'bottom'
             ex_ctx.fillStyle = 'white'
-            if (data > 300) ex_ctx.fillStyle = 'blue'
-            if (data > 500) ex_ctx.fillStyle = 'purple'
+            if (data > 300) ex_ctx.fillStyle = '#55acee'
+            if (data > 500) ex_ctx.fillStyle = '#aa8ed6'
             if (data > 800) ex_ctx.fillStyle = 'yellow'
             if (data > 1000) ex_ctx.fillStyle = '#ffd700'
             ex_ctx.fillText(data, draw_pos[i][0] + 20, draw_pos[i][1] + 256)
