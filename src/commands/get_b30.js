@@ -1,4 +1,4 @@
-import { AttachmentBuilder, EmbedBuilder, InteractionContextType, SlashCommandBuilder } from "discord.js";
+import { ActionRowBuilder, AttachmentBuilder, Component, ComponentType, EmbedBuilder, InteractionContextType, MessageFlags, SlashCommandBuilder, StringSelectMenuBuilder } from "discord.js";
 import { getB30 } from "../utils/getB30.js";
 import { Jimp } from "jimp";
 import jsQR from "jsqr";
@@ -61,9 +61,57 @@ export default {
 		}
 		await interaction.deferReply()
 		try {
-			const canvas = await getB30(data, interaction.createdAt, interaction.locale, interaction.client)
-			const attachment = new AttachmentBuilder(canvas.toBuffer(), { name: 'result.png' })
-			await interaction.editReply({ files: [attachment] }).then()	
+			const results = await getB30(data, interaction.createdAt, interaction.locale, interaction.client)
+
+            const b30_attachment = new AttachmentBuilder(results[0].toBuffer(), { name: `${interaction.client.user.id}_b30.png` })
+            const marathon_attachment = new AttachmentBuilder(results[1].toBuffer(), { name: `${interaction.client.user.id}_marathon.png` })
+
+            const select_choices = [
+                {
+                    label: 'Best 30',
+                    description: 'Your B30 image',
+                    value: 'b30'
+                },
+                {
+                    label: 'Survival time',
+                    description: 'Your best time in the Rank Survival mode',
+                    value: 'marathon'
+                }
+            ]
+
+            const selectMenu = new StringSelectMenuBuilder()
+                .setCustomId(interaction.id)
+                .setMinValues(1)
+                .setMaxValues(1)
+                .addOptions(select_choices)
+
+            const actionRow = new ActionRowBuilder()
+                .addComponents(selectMenu)
+
+			const reply = await interaction.editReply({ 
+                files: [b30_attachment],
+                components: [actionRow],
+                withResponse: true
+            })
+
+            const collector = reply.createMessageComponentCollector({
+                componentType: ComponentType.StringSelect,
+                filter: i => i.user.id === interaction.user.id && i.customId === interaction.id,
+                time: 60_000
+            })
+
+            collector.on('collect', (interaction) => {
+                interaction.deferUpdate()
+                if (interaction.values[0] === 'b30')
+                    reply.edit({
+                        files: [b30_attachment]
+                    })
+
+                if (interaction.values[0] === 'marathon')
+                    reply.edit({
+                        files: [marathon_attachment]
+                    })
+            })
 		} catch (err) {
 			throw err
 		}
