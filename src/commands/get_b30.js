@@ -4,6 +4,7 @@ import { Jimp } from "jimp";
 import jsQR from "jsqr";
 import { Validator, validate } from "jsonschema";
 import * as fs from 'fs'
+import interactionCreate from "../events/interactionCreate.js";
 
 const locales = JSON.parse(fs.readFileSync('src/locales/commands.json', 'utf-8'))
 
@@ -111,6 +112,12 @@ export default {
                     reply.edit({
                         files: [marathon_attachment]
                     })
+            })
+
+            collector.on('end', (collected, reason) => {
+                reply.edit({
+                    components: []
+                })
             })
 		} catch (err) {
 			throw err
