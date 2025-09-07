@@ -89,7 +89,7 @@ export default {
             const actionRow = new ActionRowBuilder()
                 .addComponents(selectMenu)
 
-			const reply = await interaction.editReply({ 
+	    const reply = await interaction.editReply({ 
                 files: [b30_attachment],
                 components: [actionRow],
                 withResponse: true
@@ -101,26 +101,26 @@ export default {
                 time: 60_000
             })
 
-            collector.on('collect', (interaction) => {
-                interaction.deferUpdate()
-                if (interaction.values[0] === 'b30')
-                    reply.edit({
+            collector.on('collect', async i => {
+		await i.deferUpdate()
+                if (i.values[0] === 'b30')
+                    await interaction.editReply({
                         files: [b30_attachment]
                     })
 
-                if (interaction.values[0] === 'marathon')
-                    reply.edit({
+                if (i.values[0] === 'marathon')
+                    await interaction.editReply({
                         files: [marathon_attachment]
                     })
             })
 
-            collector.on('end', (collected, reason) => {
-                reply.edit({
+            collector.on('end', async (collected, reason) => {
+                await interaction.editReply({
                     components: []
                 })
             })
-		} catch (err) {
-			throw err
-		}
+	} catch (err) {
+		throw err
 	}
+}
 }

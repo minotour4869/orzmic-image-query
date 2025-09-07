@@ -10,7 +10,12 @@ if (!fs.existsSync(".tmp/Orzmic3.0.apk")) {
     getUpdate();
 }
 
-const client = new Client({ intents: [GatewayIntentBits.Guilds] });
+const client = new Client({ 
+	intents: [
+		GatewayIntentBits.Guilds,
+		GatewayIntentBits.DirectMessages
+	] 
+});
 client.commands = new Collection();
 
 const __dirname = import.meta.dirname;
